@@ -1,0 +1,26 @@
+
+.nav-button{
+	background: linear-gradient(to left, black 50%, white 50%) right;
+	background-size:200%;
+	transition: ease-in-out 0.3s;
+}
+.nav-button:hover{
+	background-position: left;
+}
+.nav-link{
+	color:#666;
+}
+.nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: orange;
+    margin-top: 10px;
+    transition: ease-in-out .3s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+    transition:width 0.3s;
+}

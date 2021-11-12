@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+/* font-family: 'Questrial', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+/* font-family: 'PT Sans', sans-serif; */
+/* main section */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+/* font-family: 'Space Mono', monospace; */
+/* little section */
+
+
+body{
+	background : black;
+	color : white;
+}
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background: black;        /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: white;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+}
+::selection {
+  color: white;
+  background: 
+  black;
+} 
+.main-h1{
+    font-size: 5em;
+    font-weight: bold;
+font-family: 'Questrial', sans-serif;
+    color :orange;
+}
+.main-div-1{
+font-family: 'PT Sans', sans-serif;
+}
+.main-h3{
+font-family: 'PT Sans', sans-serif;
+font-weight: 600;
+font-size : 50px;
+color :#AEA79C;
+}
+.main-span-1{
+font-family: 'Space Mono', monospace;
+color: #64FFDA;
+backdrop-filter: blur(20px);
+}
+.section-button{
+    border-color: #64FFDA;
+}
+.cover-img{
+    width : 15em;
+   height : 22em; 
+}
+.up-down{
+    animation:MoveUpDown 5s linear infinite;
+}
+
+@keyframes MoveUpDown{
+    0%, 100% {
+        top:15em;
+  }
+  50% {
+      top:12em;
+  }
+}
+.mid-down{
+    animation:middown 5s linear infinite;
+}
+@keyframes middown{
+    0%,100%{
+            top:20em;
+    }
+    50%{
+        top:23em;
+    }
+}
+.bot-down{
+    animation:botdown 5s linear infinite;
+}
+@keyframes botdown{
+    0%,100%{
+            bottom:2em;
+    }
+    50%{
+        bottom : 4em;
+    }
+}
+.top-down{
+    animation:topdown 5s linear infinite;
+}
+@keyframes topdown{
+    0%,100%{
+            top:2em;
+    }
+    50%{
+        top : 8em;
+    }
+}
+.section-button{
+font-family: 'Space Mono', monospace;
+}
+.info-head{
+    color : #64FFDA;
+font-family: 'PT Sans', sans-serif;
+}
+.info-info{
+font-family: 'PT Sans', sans-serif;
+}
+.spc-col{
+color: #64FFDA;
+}
+.spc-li{
+    list-style-type: none;
+  position: relative;
+  padding-left: 15px;
+}
+.spc-li:before{
+  content: "\25BA \0020";
+  font-size: 10px;
+  position: absolute;
+  top: 5px;
+  left: -10px;
+}
