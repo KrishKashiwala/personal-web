@@ -16,7 +16,7 @@ export default function Homepage() {
 	return (
 		<div className="mt-6 first-main">
 			<Navbar />
-			<a href="mailto:krishkashiwala@gmail.com" className="fixed bottom-16  rounded-l-full bg-gray-900 py-4 px-4 -right-36 transform rotate-90 bg-transparent z-10 email-link">krishkashiwala@gmail.com <span className="text-white"> &nbsp;&nbsp;&nbsp;___________________________________ </span></a>
+			<a href="mailto:krishkashiwala@gmail.com" className="fixed bottom-16  rounded-l-full bg-gray-900 py-4 px-4 -right-56 transform rotate-90 bg-transparent z-20 email-link">krishkashiwala@gmail.com <span className="text-white"> &nbsp;&nbsp;&nbsp;_________________________________________________________ </span></a>
 			<main className="flex justify-between mt-24 ">
 				<div className=" fixed bottom-0 ml-10 bg-transparent z-10 ">
 					<ul className="flex flex-col justify-between gap-5 h-full p-3 bg-gray-900 bg-transparent blur rounded-t-full">
@@ -29,7 +29,7 @@ export default function Homepage() {
 				</div>
 				<div className="flex ">
 					<img src="https://www.vectorlogo.zone/logos/github/github-tile.svg" className=" w-11  absolute top-28 left-52 top-down transform rotate-45" alt="Git-Hub-Mark-32px" />
-					<img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" className=" w-11 transform -rotate-45 bot-down absolute bottom-6 left-10" alt="Git-Hub-Mark-32px" />
+					<img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" className=" w-11 transform -rotate-45 bot-down absolute bottom-6 left-24" alt="Git-Hub-Mark-32px" />
 					<img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Chrome_icon_%28September_2014%29.svg" className="animate-spin w-11 absolute bottom-44 right-3  " alt="Git-Hub-Mark-32px" />
 					<img src="https://i.ibb.co/YcfmN8W/logo512.png" alt="logo512" className="w-11 absolute  top-50 animate-spin transform  scale-x-150 scale-y-150  right-72 up-down" ></img>
 					<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="logo512" className="w-11 absolute bottom-64 right-64 transform rotate-45" ></img>
