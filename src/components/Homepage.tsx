@@ -21,10 +21,10 @@ export default function Homepage() {
 			<main className="flex justify-between mt-24 ">
 				<div className=" fixed bottom-0 ml-10 bg-transparent z-10 ">
 					<ul className="flex flex-col justify-between gap-5 h-full p-3 bg-gray-900 bg-transparent blur rounded-t-full">
-						<a href="https://github.com/KrishKashiwala" target="_blank" className="media-links transform transition duration-300 ease-in hover:-translate-y-3"><i className="fab fa-github text-xl transform hover:scale-y-4"></i></a>
-						<a href="https://www.linkedin.com/in/krish-kashiwala-4384521ab/" target="_blank" className="media-links transform transition duration-300 ease-in hover:-translate-y-3"><i className="fab fa-linkedin text-xl"></i></a >
-						<a href="https://www.instagram.com/krish.kashiwala/" target="_blank" className="media-links transform transition duration-300 ease-in hover:-translate-y-3"><i className="fab fa-instagram text-xl"></i></a >
-						<a href="https://twitter.com/krishebish" target="_blank" className="media-links transform transition duration-300 ease-in hover:-translate-y-3"><i className="fab fa-twitter text-xl"></i></a >
+						<a href="https://github.com/KrishKashiwala" rel="noreferrer" target="_blank" className="media-links transform transition duration-300 ease-in hover:-translate-y-3"><i className="fab fa-github text-xl transform hover:scale-y-4"></i></a>
+						<a href="https://www.linkedin.com/in/krish-kashiwala-4384521ab/" rel="noreferrer" target="_blank" className="media-links transform transition duration-300 ease-in hover:-translate-y-3"><i className="fab fa-linkedin text-xl"></i></a >
+						<a href="https://www.instagram.com/krish.kashiwala/" target="_blank" rel="noreferrer" className="media-links transform transition duration-300 ease-in hover:-translate-y-3"><i className="fab fa-instagram text-xl"></i></a >
+						<a href="https://twitter.com/krishebish" target="_blank" rel="noreferrer" className="media-links transform transition duration-299 ease-in hover:-translate-y-3"><i className="fab fa-twitter text-xl"></i></a >
 						<div className="ml-2 border-l-2 border-l-white h-24 "></div>
 					</ul>
 				</div>
@@ -104,7 +104,7 @@ export default function Homepage() {
 							<div className="3/6" data-aos="fade-up">
 								<div className="border-2 rounded-lg border-yellow-400 info-img-border  h-40 px-32 py-44">
 								</div>
-								<img className="w-64 h-96 rounded-lg absolute bottom-20 right-20  " src="https://i.ibb.co/bbyxyQ7/Whats-App-Image-2021-11-12-at-9-37-12-PM.jpg" alt="Whats-App-Image-2021-11-12-at-9-37-12-PM" />
+								<img className="w-64 h-96 rounded-lg absolute bottom-20 right-20" src="https://i.ibb.co/bbyxyQ7/Whats-App-Image-2021-11-12-at-9-37-12-PM.jpg" alt="pics" />
 
 							</div>
 						</Tilt>
