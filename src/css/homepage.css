@@ -7,7 +7,9 @@
 /* font-family: 'Space Mono', monospace; */
 /* little section */
 
-
+*{
+scroll-behavior: smooth !important;
+}
 body{
 	background : black;
 	color : white;
@@ -23,9 +25,9 @@ body::-webkit-scrollbar-thumb {
   border-radius: 20px;       /* roundness of the scroll thumb */
 }
 ::selection {
-  color: white;
+  color: black;
   background: 
-  black;
+  white;
 } 
 .main-h1{
     font-size: 5em;
@@ -123,4 +125,29 @@ color: #64FFDA;
   position: absolute;
   top: 5px;
   left: -10px;
+}
+.media-links:hover{
+    color : #64FFDA;
+}
+.email-link{
+    color : #64FFDA;
+}
+.foot-main{
+    margin-top:40rem;
+}
+.foot-main-h5{
+    color : #64FFDA;
+font-family: 'Space Mono', monospace;
+}
+.foot-main-h1{
+font-family: 'PT Sans', sans-serif;
+font-weight: 600;
+font-size : 60px;
+line-height: 78px;
+}
+.foot-button{
+    border-color:#64FFDA;
+}
+footer{
+font-family: 'Space Mono', monospace;
 }
