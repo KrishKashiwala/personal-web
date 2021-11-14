@@ -4,7 +4,8 @@ import Navbar from './Navbar'
 import * as AOS from 'aos'
 import "aos/dist/aos.css";
 import React from 'react';
-import $ from 'jquery'
+import Tilt from 'react-tilted'
+
 export default function Homepage() {
 	React.useEffect(() => {
 		AOS.init({
@@ -98,9 +99,14 @@ export default function Homepage() {
 								{/* <li className="spc-li spc-col">Workshop Facilitator</li> */}
 							</ul>
 						</div>
-						<div className="3/6 img-hover" data-tilt>
-							<div className="border-2 rounded-lg border-yellow-400 info-img-border  h-40 px-32 py-52"><img className="w-60 h-96 rounded-lg absolute  right-28 bottom-36 " src="https://i.ibb.co/bbyxyQ7/Whats-App-Image-2021-11-12-at-9-37-12-PM.jpg" alt="Whats-App-Image-2021-11-12-at-9-37-12-PM" /></div>
-						</div>
+						<Tilt scale={1}>
+							<div className="3/6 ">
+								<div className="border-2 rounded-lg border-yellow-400 info-img-border  h-40 px-32 py-44">
+								</div>
+								<img className="w-64 h-96 rounded-lg absolute bottom-20 right-20  " src="https://i.ibb.co/bbyxyQ7/Whats-App-Image-2021-11-12-at-9-37-12-PM.jpg" alt="Whats-App-Image-2021-11-12-at-9-37-12-PM" />
+
+							</div>
+						</Tilt>
 					</div >
 				</section >
 			</main >
