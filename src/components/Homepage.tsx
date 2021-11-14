@@ -5,6 +5,7 @@ import * as AOS from 'aos'
 import "aos/dist/aos.css";
 import React from 'react';
 import Tilt from 'react-tilted'
+import Project from './Project';
 
 export default function Homepage() {
 	React.useEffect(() => {
@@ -100,7 +101,7 @@ export default function Homepage() {
 							</ul>
 						</div>
 						<Tilt scale={1}>
-							<div className="3/6 ">
+							<div className="3/6" data-aos="fade-up">
 								<div className="border-2 rounded-lg border-yellow-400 info-img-border  h-40 px-32 py-44">
 								</div>
 								<img className="w-64 h-96 rounded-lg absolute bottom-20 right-20  " src="https://i.ibb.co/bbyxyQ7/Whats-App-Image-2021-11-12-at-9-37-12-PM.jpg" alt="Whats-App-Image-2021-11-12-at-9-37-12-PM" />
@@ -110,6 +111,21 @@ export default function Homepage() {
 					</div >
 				</section >
 			</main >
+			<section className="flex flex-col text-center pro  items-center  mt-44 ml-0 mr-0" data-aos="fade-down" id="projects" >
+				<h1 className="mb-10 text-3xl font-bold ">Projects</h1>
+
+				<div className="flex flex-row  gap-4 ">
+					<Tilt scale={1.2}>
+						<Project title="" des="Analysis oof the network of the characters of Game of thrones which deeplyf the network of the characters of Game of thrones which deeply shows some of the very important factors like which character is connected with other characters, Centralities of each character, how will a message pass if it is passed from the character having highest degree of centrality, Virality vs Seeding Budget rate chart, importance of a character, what does Google #PageRank tell us about GOT, etc#" gitlink="" extralink="" />
+					</Tilt>
+					<Tilt scale={1.2}>
+						<Project title="" des="pass if it is passed from the character having highest degree of centrality, Virality vs Seeding Budget rate chart, importance of a charact" gitlink="" extralink="" />
+					</Tilt>
+					<Tilt scale={1.2}>
+						<Project title="" des="0A1A2F" gitlink="" extralink="" />
+					</Tilt>
+				</div>
+			</section>
 			<section className="flex flex-col justify-center items-center foot-main" data-aos="fade-up" data-aos-once="true" id="contact">
 				<h5 className="foot-main-h5">What's Next?</h5>
 				<h1 className="foot-main-h1">Get In Touch</h1>

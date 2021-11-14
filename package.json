@@ -47,8 +47,10 @@
   },
   "devDependencies": {
     "@types/aos": "^3.0.4",
+    "@types/jquery": "^3.5.8",
     "aos": "^2.3.4",
     "autoprefixer": "^9.8.8",
+    "jquery": "^3.6.0",
     "postcss": "^7.0.39",
     "react-tilted": "^1.0.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"

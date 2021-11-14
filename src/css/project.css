@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+/* font-family: 'Questrial', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+/* font-family: 'PT Sans', sans-serif; */
+/* main section */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+/* font-family: 'Space Mono', monospace; */
+/* little section */
+.content h3{
+font-family: 'PT Sans', sans-serif;
+}
+.pro-main{
+	background-color: #0A1A2F;
+}
+
+.git-logo:hover{
+	color:#64FFDA;
+}
