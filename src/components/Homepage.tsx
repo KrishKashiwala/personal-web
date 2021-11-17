@@ -114,14 +114,14 @@ export default function Homepage() {
 			<section className="flex flex-col text-center pro  items-center  mt-44 ml-0 mr-0" data-aos="fade-down" id="projects" >
 				<h1 className="mb-10 text-3xl font-bold ">Projects</h1>
 
-				<div className="flex flex-row  gap-4 ">
-					<Tilt scale={1.2}>
-						<Project title="" des="Analysis oof the network of the characters of Game of thrones which deeplyf the network of the characters of Game of thrones which deeply shows some of the very important factors like which character is connected with other characters, Centralities of each character, how will a message pass if it is passed from the character having highest degree of centrality, Virality vs Seeding Budget rate chart, importance of a character, what does Google #PageRank tell us about GOT, etc#" gitlink="" extralink="" />
+				<div className="flex flex-row  gap-10">
+					<Tilt scale={1.2} easing>
+						<Project title="Farmgistics" des="An online portal where farmers can sell their crops all over the nation without interference of farmer market." gitlink="https://github.com/KrishKashiwala/Farmgistics" extralink="" />
 					</Tilt>
-					<Tilt scale={1.2}>
-						<Project title="" des="pass if it is passed from the character having highest degree of centrality, Virality vs Seeding Budget rate chart, importance of a charact" gitlink="" extralink="" />
+					<Tilt scale={1.2} easing>
+						<Project title="Chat App" des="It's a command line based python chat application which basically connects two users on a socket connection and transfer of message does happen." gitlink="https://github.com/KrishKashiwala/cli-based-chat-app-using-python" extralink="https://www.linkedin.com/posts/krish-kashiwala-4384521ab_github-krishkashiwalacli-based-chat-app-using-python-activity-6851449785937903616-qGqM" />
 					</Tilt>
-					<Tilt scale={1.2}>
+					<Tilt scale={1.2} easing >
 						<Project title="" des="0A1A2F" gitlink="" extralink="" />
 					</Tilt>
 				</div>

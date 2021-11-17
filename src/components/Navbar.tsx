@@ -1,11 +1,9 @@
 import '../css/navbar.css'
 const Navbar = () => {
-
-
 	return (
 		<div className="nav-main flex flex-row justify-between top-5 ml-20 mr-20" data-aos="fade-up">
 			<section className="logo rounded bg-cover w-3 h-3">Hello</section>
-			<section className="work flex flex-row justify-between w-3/12 ">
+			<section className="flex flex-row justify-between w-3/12 ">
 				<a href="#about" className="nav-link cursor-pointer hover:text-white">About</a>
 				<a href="#projects" className="nav-link cursor-pointer hover:text-white">Projects</a>
 				<a href="/blogs" className="nav-link cursor-pointer hover:text-white">Blogs</a>
