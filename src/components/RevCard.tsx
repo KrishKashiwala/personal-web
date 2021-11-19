@@ -15,7 +15,7 @@ const RevCard: React.FC = () => {
 				<p className="rev-p ">Featured Project</p>
 				<h3 className="rev-h3 font-bold text-4xl">Python Chat App</h3>
 				<div className="">
-					<p className="absolute w-2/4 rounded-3xl bg-gray-900 left-4 p-5 float-left text-left text-gray-400">Command Line Based Tool which supports Multi-client chat Facility.</p>
+					<p className="absolute w-2/4 rounded-3xl bg-gray-900 left-4 p-6 float-left text-left text-gray-400">Command Line Based Tool which supports Multi-client chat Facility.</p>
 				</div>
 				<div className="absolute mt-72 flex flex-row items-center">
 					<a className="link" href="https://github.com/KrishKashiwala/cli-based-chat-app-using-python">

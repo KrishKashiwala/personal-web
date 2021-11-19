@@ -164,11 +164,23 @@ font-family: 'PT Sans', sans-serif;
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     position : relative;
     transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
-    color:#64FFDA;
+    color:white;
 }
 .pro-h2::before{
     content:'03.';
+    color:#64FFDA;
+    margin-right : 10px;
+    margin-left : 2em;
+}
+.exp-h2{
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    position : relative;
+    transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
     color:white;
+}
+.exp-h2::before{
+    content : '02.';
+    color:#64FFDA;
     margin-right : 10px;
     margin-left : 2em;
 }

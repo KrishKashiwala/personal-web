@@ -8,6 +8,7 @@ import Tilt from 'react-tilted'
 import Project from './Project';
 import Projectcard from './Projectcard';
 import RevCard from './RevCard';
+import Experience from './Experience';
 
 export default function Homepage() {
 	React.useEffect(() => {
@@ -113,10 +114,19 @@ export default function Homepage() {
 					</div >
 				</section >
 			</main >
+			<section className=" mt-52">
+				<div className="flex flex-row items-center  ml-64">
+					<h2 data-sr-id="3" className="visible animate__animated animate__fadeInUp opacity-100 text-3xl exp-h2">Experience</h2>
+					<hr className="w-64 ml-4 text-gray-600  opacity-40 animate__animated animate__fadeInUp" />
+				</div>
+				<div className="slider">
+					<Experience />
+				</div>
+			</section>
 			<section id="projects" className="mt-52">
 				<div className="flex flex-row items-center ml-64">
 					<h2 data-sr-id="3" className="visible animate__animated animate__fadeInUp opacity-100 text-3xl pro-h2">Some things I've Built</h2>
-					<hr className="w-64 ml-4 text-gray-600  opacity-40 animate__animated animate__fadeInUp" />
+					<hr className="w-64 ml-4 text-gray-800  opacity-80 animate__animated animate__fadeInUp" />
 				</div>
 				<ul className="flex flex-row ">
 					<li>
