@@ -1,5 +1,14 @@
+import React from 'react'
 import '../css/navbar.css'
+import * as AOS from 'aos'
+import 'animate.css';
+import "aos/dist/aos.css";
 const Navbar = () => {
+	React.useEffect(() => {
+		AOS.init({
+			duration: 300,
+		})
+	}, [])
 	return (
 		<div className="nav-main flex flex-row justify-between top-5 ml-20 mr-20" data-aos="fade-up">
 			<section className="logo rounded bg-cover w-3 h-3">Hello</section>

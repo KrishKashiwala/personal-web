@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+/* font-family: 'Questrial', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+/* font-family: 'PT Sans', sans-serif; */
+/* main section */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+/* font-family: 'Space Mono', monospace; */
+/* little section */
+.proj-main{
+	width: 60vw;
+	display: flex;
+	flex-direction: row-reverse;
+	margin-left : 20em;
+	margin-top : 5em;
+	position: relative;
+}
+.proj-img{
+	width:34em;
+	height : 20em;
+
+}
+.proj-p{
+	margin-top:-7em;
+font-family: 'Space Mono', monospace;
+color: #64FFDA;
+font-size:15px;
+}
+.proj-sub-div{
+	width: 40em;
+	height : 20em;
+}
+.proj-h3{
+font-family: 'PT Sans', sans-serif;
+}
+.git-icon{
+
+color: rgb(99, 96, 96);
+}
+.link:hover{
+color: #64FFDA;
+
+}

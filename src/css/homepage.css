@@ -108,6 +108,12 @@ font-family: 'Space Mono', monospace;
     color : #64FFDA;
 font-family: 'PT Sans', sans-serif;
 }
+.info-head::before{
+    content:'01.';
+    color:white;
+    margin-right : 10px;
+    margin-left : 2em;
+}
 .info-info{
 font-family: 'PT Sans', sans-serif;
 }
@@ -153,4 +159,16 @@ font-family: 'Space Mono', monospace;
 }
 .pro{
 font-family: 'PT Sans', sans-serif;
+}
+.pro-h2{
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    position : relative;
+    transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
+    color:#64FFDA;
+}
+.pro-h2::before{
+    content:'03.';
+    color:white;
+    margin-right : 10px;
+    margin-left : 2em;
 }

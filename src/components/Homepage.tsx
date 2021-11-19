@@ -6,6 +6,8 @@ import "aos/dist/aos.css";
 import React from 'react';
 import Tilt from 'react-tilted'
 import Project from './Project';
+import Projectcard from './Projectcard';
+import RevCard from './RevCard';
 
 export default function Homepage() {
 	React.useEffect(() => {
@@ -21,10 +23,10 @@ export default function Homepage() {
 			<main className="flex justify-between mt-24 ">
 				<div className=" fixed bottom-0 ml-10 bg-transparent z-10 ">
 					<ul className="flex flex-col justify-between gap-5 h-full p-3 bg-gray-900 bg-transparent blur rounded-t-full">
-						<a href="https://github.com/KrishKashiwala" rel="noreferrer" target="_blank" className="media-links transform transition duration-300 ease-in hover:-translate-y-3"><i className="fab fa-github text-xl transform hover:scale-y-4"></i></a>
-						<a href="https://www.linkedin.com/in/krish-kashiwala-4384521ab/" rel="noreferrer" target="_blank" className="media-links transform transition duration-300 ease-in hover:-translate-y-3"><i className="fab fa-linkedin text-xl"></i></a >
-						<a href="https://www.instagram.com/krish.kashiwala/" target="_blank" rel="noreferrer" className="media-links transform transition duration-300 ease-in hover:-translate-y-3"><i className="fab fa-instagram text-xl"></i></a >
-						<a href="https://twitter.com/krishebish" target="_blank" rel="noreferrer" className="media-links transform transition duration-299 ease-in hover:-translate-y-3"><i className="fab fa-twitter text-xl"></i></a >
+						<a href="https://github.com/KrishKashiwala" rel="noreferrer" target="_blank" className="media-links transform transition duration-300 ease-in hover:-translate-y-1"><i className="fab fa-github text-xl transform hover:scale-y-4"></i></a>
+						<a href="https://www.linkedin.com/in/krish-kashiwala-4384521ab/" rel="noreferrer" target="_blank" className="media-links transform transition duration-300 ease-in hover:-translate-y-1"><i className="fab fa-linkedin text-xl"></i></a >
+						<a href="https://www.instagram.com/krish.kashiwala/" target="_blank" rel="noreferrer" className="media-links transform transition duration-300 ease-in hover:-translate-y-1"><i className="fab fa-instagram text-xl"></i></a >
+						<a href="https://twitter.com/krishebish" target="_blank" rel="noreferrer" className="media-links transform transition duration-300 ease-in hover:-translate-y-1"><i className="fab fa-twitter text-xl"></i></a >
 						<div className="ml-2 border-l-2 border-l-white h-24 "></div>
 					</ul>
 				</div>
@@ -54,7 +56,7 @@ export default function Homepage() {
 			<main id="about" >
 				<section className="mt-52 flex flex-col ml-36 mr-20 second-main" data-aos="fade-up" data-aos-once="true">
 					<div className="flex flex-row items-center ">
-						<h3 className="info-head text-xl ml-24" data-aos="slide-up">01.</h3>&nbsp;&nbsp;<span className="font-bold text-3xl animate__animated animate__fadeInUp">About Me&nbsp;&nbsp;</span>
+						<span className="font-bold info-head text-3xl animate__animated animate__fadeInUp">About Me&nbsp;&nbsp;</span>
 						<hr className="w-64 ml-2 opacity-40 animate__animated animate__fadeInUp" />
 					</div>
 					<br />
@@ -111,7 +113,19 @@ export default function Homepage() {
 					</div >
 				</section >
 			</main >
-			<section className="flex flex-col text-center pro  items-center  mt-44 ml-0 mr-0" data-aos="fade-down" id="projects" >
+			<section id="projects" className="mt-52">
+				<div className="flex flex-row items-center ml-64">
+					<h2 data-sr-id="3" className="visible animate__animated animate__fadeInUp opacity-100 text-3xl pro-h2">Some things I've Built</h2>
+					<hr className="w-64 ml-4 text-gray-600  opacity-40 animate__animated animate__fadeInUp" />
+				</div>
+				<ul className="flex flex-row ">
+					<li>
+						<Projectcard />
+						<RevCard />
+					</li>
+				</ul>
+			</section>
+			<section className="flex flex-col text-center pro  items-center  mt-44 ml-0 mr-0" data-aos="fade-up" id="projects" >
 				<h1 className="mb-10 text-3xl font-bold ">Projects</h1>
 
 				<div className="flex flex-row  gap-10">
