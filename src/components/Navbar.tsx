@@ -18,7 +18,7 @@ const Navbar = () => {
 				<a href="/blogs" className="nav-link cursor-pointer hover:text-white">Blogs</a>
 				<a href="#contact" className="nav-link cursor-pointer hover:text-white">Contact</a>
 			</section>
-			<a href="https://pdfhost.io/v/ljTjPmYqG_krish_resume" download className="nav-button rounded-lg overflow-hidden  border-2 border-opacity-3  border-gray-50 px-4 py-1 box-border transition duration-500 ease-in-out transform  hover:bg-white  hover:text-black">Resume </a>
+			<a href="https://drive.google.com/file/d/1w3qbgyAChvafxCf8xXZvcQ8VhUZMOaxL/view" rel="noreferrer" target="_blank" className="nav-button rounded-lg overflow-hidden  border-2 border-opacity-3  border-gray-50 px-4 py-1 box-border transition duration-500 ease-in-out transform  hover:bg-white  hover:text-black">Resume </a>
 		</div>
 
 	)

@@ -123,7 +123,7 @@ export default function Homepage() {
 					<Experience />
 				</div>
 			</section>
-			<section id="projects" className="mt-52">
+			<section id="projects" className="mt-64">
 				<div className="flex flex-row items-center ml-64">
 					<h2 data-sr-id="3" className="visible animate__animated animate__fadeInUp opacity-100 text-3xl pro-h2">Some things I've Built</h2>
 					<hr className="w-64 ml-4 text-gray-800  opacity-80 animate__animated animate__fadeInUp" />
