@@ -184,3 +184,43 @@ font-family: 'PT Sans', sans-serif;
     margin-right : 10px;
     margin-left : 2em;
 }
+@media(max-width:380px){
+    .left-links{
+        display: none;
+    }
+    .second-main{
+        margin-left : 0;
+        margin-right : 0;
+    }
+    .info-head{
+        font-size: 2em;;
+        width : 50%;
+        text-align: center;
+    }
+    .info-head::before{
+        content: '01. ';
+        font-size : 20px;
+        margin-left : 0;
+        margin-right : 0;
+    }
+    .ab-hr{
+        width: 30%;
+    }
+    .ab-span{
+        font-size : 20px;
+    }
+    .ab-des-main{
+        width : 90%;
+    }
+    .info-info{
+        width: 80%;
+        margin-right : 0;
+    }
+    .ab-des-des{
+        width : 30em;
+    }
+    .foot-main-h1{
+font-weight: 600;
+font-size : 40px;
+    }
+}

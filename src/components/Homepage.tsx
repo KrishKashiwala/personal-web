@@ -22,7 +22,7 @@ export default function Homepage() {
 			<Navbar />
 			<a href="mailto:krishkashiwala@gmail.com" className="fixed bottom-16  rounded-l-full bg-gray-900 py-4 px-4 -right-56 transform rotate-90 bg-transparent z-20 email-link">krishkashiwala@gmail.com <span className="text-white"> &nbsp;&nbsp;&nbsp;_________________________________________________________ </span></a>
 			<main className="flex justify-between mt-24 ">
-				<div className=" fixed bottom-0 ml-10 bg-transparent z-10 ">
+				<div className=" fixed bottom-0 ml-10 bg-transparent z-10 left-links">
 					<ul className="flex flex-col justify-between gap-5 h-full p-4 bg-gray-900 bg-transparent blur rounded-t-full">
 						<a href="https://github.com/KrishKashiwala" rel="noreferrer" target="_blank" className="media-links transform transition duration-300 ease-in hover:-translate-y-1"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-github w-5 h-5"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
 						<a href="https://www.linkedin.com/in/krish-kashiwala-4384521ab/" rel="noreferrer" target="_blank" className="media-links transform transition duration-300 ease-in hover:-translate-y-1"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-linkedin"><title>LinkedIn</title><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a >
@@ -55,17 +55,19 @@ export default function Homepage() {
 			</main>
 
 			<main id="about" >
-				<section className="mt-52 flex flex-col ml-36 mr-20 second-main " data-aos="fade-up" data-aos-once="true">
-					<div className="flex flex-row items-center ">
-						<span className="font-bold info-head text-3xl animate__animated animate__fadeInUp ">About Me&nbsp;&nbsp;</span>
-						<hr className="w-64 ml-2 opacity-40 animate__animated animate__fadeInUp " />
+				<section className="lg:mt-52 lg:flex lg:flex-col lg:ml-36 lg:mr-20 second-main mt-52 flex flex-col ml-36" data-aos="fade-up" data-aos-once="true">
+					<div className="lg:flex lg:flex-row lg:items-center flex flex-row items-center">
+						<span className="lg:font-bold info-head lg:text-3xl animate__animated animate__fadeInUp ab-span">&nbsp;&nbsp;About Me&nbsp;&nbsp;</span>
+						<hr className="lg:w-64 lg:ml-2 lg:opacity-40 -ml-7 animate__animated animate__fadeInUp ab-hr" />
 					</div>
 					<br />
-					<div className="flex flex-row items-center  justify-around" >
-						<div className="w-3/5 info-info text-xl opacity-60"> Hello! I'm Krish, a computer science grad.
+					<div className="lg:flex lg:flex-row  grid grid-rows-2 lg:items-center lg:justify-around ab-des-main " >
+						<div className="lg:w-3/5 info-info lg:text-xl lg:opacity-60  w-52 text-md  m-6 lg:text-left text-left justify-center "> Hello! I'm Krish, a computer science grad.
+
 							When it comes to technology, there was always something that attracted me to learn and experiment with new things. The habit of asking questions for every new thing that attracted my eyes proved to be very beneficial to me. Exploring new things, finding answers, and creating something new is all that I do.
 
-							The goal is to make something with which I can say that I have contributed something to the world! As a growing child, my parents always nurtured me and never let me stay in my comfort zone. This motivated me to work hard and so I will make every effort to repay their struggle.
+							The goal is to make something with which I can say that I have contributed something to the world! As a growing child, my parents always nurtured me and never let me stay in my comfort zone. <br /><br /> This motivated me to work hard and so I will make every effort to repay their struggle.
+
 
 							I am very adaptive to any new Technology as it is my passion to explore new technologies. For my work, I put all of my dedication towards it. I am an enthusiastic and hard-working student at my University.
 
@@ -74,7 +76,7 @@ export default function Homepage() {
 							<br />
 							Here are a few technologies I've known thoroughly:
 							<br />
-							<ul className="spc-col flex flex-row">
+							<ul className="spc-col lg:flex lg:flex-row flex flex-row m-5">
 								<div>
 									<li className="spc-li"> React.js ⚛</li>
 									<li className="spc-li"> GraphQL 📱</li>
@@ -99,18 +101,18 @@ export default function Homepage() {
 							<br />
 							<ul>
 								{/* <li className="spc-li spc-col">Hackathon / Event Management 💻</li> */}
-								<li className="spc-li spc-col">Project Leader</li>
+								<li className="spc-li spc-col m-5">Project Leader</li>
 								{/* <li className="spc-li spc-col">Workshop Facilitator</li> */}
 							</ul>
 						</div>
-						<Tilt scale={1}>
-							<div className="3/6" data-aos="fade-up">
-								<div className="border-2 rounded-lg border-yellow-400 info-img-border  h-40 px-32 py-44">
+						<div data-aos="fade-up">
+							<Tilt scale={1}>
+								<div className="lg:border-2 lg:rounded-lg lg:border-yellow-400   lg:h-40 lg:px-32 lg:py-44 border-2 lg:-ml-10 rounded-lg border-yellow-400 w-36  h-52  ml-32 mt-14 ">
 								</div>
-								<img className="w-64 h-96 rounded-lg absolute bottom-20 right-20" src="https://i.ibb.co/bbyxyQ7/Whats-App-Image-2021-11-12-at-9-37-12-PM.jpg" alt="pics" />
+								<img className="lg:w-64 lg:h-96 lg:rounded-lg lg:absolute lg:bottom-20 lg:right-16 w-44 ml-14  h-60 absolute right-24 bottom-6 rounded-lg" src="https://i.ibb.co/bbyxyQ7/Whats-App-Image-2021-11-12-at-9-37-12-PM.jpg" alt="pics" />
 
-							</div>
-						</Tilt>
+							</Tilt>
+						</div>
 					</div >
 				</section >
 			</main >
@@ -135,25 +137,25 @@ export default function Homepage() {
 					</li>
 				</ul>
 			</section>
-			<section className="flex flex-col text-center pro  items-center  mt-96 ml-0 mr-0" data-aos="fade-up" id="projects" >
-				<h1 className="mb-10 text-3xl font-bold">Other Noteworthy Projects</h1>
+			<section className="lg:flex lg:flex-col lg:text-center pro  lg:items-center  lg:mt-96 lg:ml-0 lg:mr-0 flex flex-col text-center ml-0 mr-0 mt-96 " data-aos="fade-up" id="projects" >
+				<h1 className="lg:mb-10 lg:text-3xl lg:font-bold mb-10 text-xl font-bold ">Other Noteworthy Projects</h1>
 
-				<div className="flex flex-row  gap-10">
+				<div className="lg:flex lg:flex-row  lg:gap-10 flex flex-col gap-5  ml-7 ">
 					<Project clas title="Farmgistics" des="An online portal where farmers can sell their crops all over the nation without interference of farmer market." gitlink="https://github.com/KrishKashiwala/Farmgistics" extralink="" />
 					<Project title="Chat App" des="It's a command line based python chat application which basically connects two users on a socket connection and transfer of message does happen." gitlink="https://github.com/KrishKashiwala/cli-based-chat-app-using-python" extralink="https://www.linkedin.com/posts/krish-kashiwala-4384521ab_github-krishkashiwalacli-based-chat-app-using-python-activity-6851449785937903616-qGqM" />
 					<Project title="" des="0A1A2F" gitlink="" extralink="" />
 				</div>
 			</section>
-			<section className="flex flex-col justify-center items-center foot-main" data-aos="fade-up" data-aos-once="true" id="contact">
+			<section className="lg:flex lg:flex-col lg:justify-center lg:items-center foot-main flex flex-col justify-center items-center " data-aos="fade-up" data-aos-once="true" id="contact">
 				<h5 className="foot-main-h5">What's Next?</h5>
 				<h1 className="foot-main-h1">Get In Touch</h1>
-				<h5 className="foot-not-main opacity-20">I enjoy talking to new people so free feel to mail or connect with me</h5>
+				<h5 className="text-sm w-56 text-center opacity-20">I enjoy talking to new people so free feel to mail or connect with me</h5>
 				<br />
 				<h5> 🤖</h5>
 				<br />
 				<a href="mailto:krishkashiwala@gmail.com" className="foot-button border-2 py-4 px-6 rounded-lg transition duration-300 ease-in-out hover:bg-white hover:text-black">Let's Talk</a>
 			</section>
-			<footer className="text-center opacity-20 mt-52">
+			<footer className="lg:text-center lg:opacity-20 lg:mt-52 text-center opacity-20 mt-52">
 				© 2021 Krish Kashiwala
 			</footer>
 
