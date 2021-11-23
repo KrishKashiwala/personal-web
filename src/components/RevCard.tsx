@@ -10,14 +10,14 @@ const RevCard: React.FC = () => {
 		})
 	}, [])
 	return (
-		<div className="rev-main items-center justify-start " data-aos="fade-down">
-			<div className="flex rev-sub-div flex-col justify-center items-start  p-5 gap-4 z-20 ">
+		<div className="rev-main lg:items-center lg:justify-start  flex items-center justify-start flex-col text-start  " data-aos="fade-down">
+			<div className="lg:flex rev-sub-div lg:flex-col lg:justify-center bg-gray-900 lg:bg-black lg:items-start  lg:p-5 lg:mt-16 lg:gap-4 lg:z-20 flex flex-col  justify-center items-start gap-4 p-5">
 				<p className="rev-p ">Featured Project</p>
 				<h3 className="rev-h3 font-bold text-4xl">Python Chat App</h3>
 				<div className="">
-					<p className="absolute w-2/4 rounded-3xl bg-gray-900 left-4 p-6 float-left text-left text-gray-400">Command Line Based Tool which supports Multi-client chat Facility.</p>
+					<p className=" lg:rounded-3xl  lg:absolute  lg:p-6 lg:float-left lg:text-left lg:bg-gray-900 ">Command Line Based Tool which supports Multi-client chat Facility.</p>
 				</div>
-				<div className="absolute mt-72 flex flex-row items-center">
+				<div className=" lg:mt-24  lg:flex lg:flex-row lg:items-center">
 					<a className="link" href="https://github.com/KrishKashiwala/cli-based-chat-app-using-python">
 						<svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-github w-10 h-5 fill-current opacity-40 transition ease-in-out duration-1000"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
 					</a>
@@ -31,7 +31,7 @@ const RevCard: React.FC = () => {
 				</div>
 
 			</div>
-			<img className="rev-img " src="https://raw.githubusercontent.com/KrishKashiwala/cli-based-chat-app-using-python/main/1.png?raw=true" alt="pp-1"></img>
+			<img className="rev-img hidden lg:block" src="https://raw.githubusercontent.com/KrishKashiwala/cli-based-chat-app-using-python/main/1.png?raw=true" alt="pp-1"></img>
 		</div>
 	)
 

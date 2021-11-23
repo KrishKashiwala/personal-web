@@ -10,7 +10,7 @@
 	width: 60vw;
 	display: flex;
 	flex-direction: row-reverse;
-	margin-left : 20em;
+	margin-left : 24em;
 	margin-top : 5em;
 	position: relative;
 }
@@ -38,5 +38,16 @@ color: rgb(99, 96, 96);
 }
 .link:hover{
 color: #64FFDA;
-
+}
+@media(max-width : 400px){
+	.proj-main{
+		width : 70vw;
+		margin-left : 2.8em;
+	}
+	.proj-p{
+		margin-top : 0;
+	}
+	.content{
+		z-index:9999;
+	}
 }

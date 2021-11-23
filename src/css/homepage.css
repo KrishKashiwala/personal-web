@@ -223,4 +223,8 @@ font-family: 'PT Sans', sans-serif;
 font-weight: 600;
 font-size : 40px;
     }
+    .pro-h2::before{
+        margin-left : 0;
+        margin-right : 5px;
+    }
 }
