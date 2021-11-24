@@ -48,7 +48,7 @@ export default function Homepage() {
 						<span className="lg:font-normal lg:text-base main-span-1 lg:blur animate__animated animate__fadeInUp  text-sm">Hi 👋🏻, my name is</span>
 						<h1 className="main-h1  animate__animated animate__fadeInUp">Krish Kashiwala.</h1>
 						<h3 className="lg:w-3/4 main-h3 animate__animated animate__fadeInUp" >In <a title="(Bubinator), Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Love_Heart_SVG.svg"><img className="lg:w-9 lg:h-9 w-5 h-5" alt="Love Heart SVG" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Love_Heart_SVG.svg/512px-Love_Heart_SVG.svg.png" /></a> with  Technology, Photography and Humor.</h3>
-						<div className="lg:w-5/12 lg:mt-4 lg:mb-4 lg:font-normal lg:text-lg text-gray-600 animate__animated animate__fadeInUp text-sm mt-5 w-4/5 mb-10">I'm a computer science grad based in Silicon Valley who thinks with both left and right brains whether it's coding, photography, or motion graphics.</div>
+						<div className="lg:w-5/12 lg:mt-4 lg:mb-4 lg:font-normal lg:text-lg text-gray-600 animate__animated animate__fadeInUp text-sm mt-5 w-4/5 mb-10">I'm a computer science grad  who thinks with both left and right brains whether it's coding  or photography.</div>
 					</div>
 					<a href="mailto:krishkashiwala@gmail.com" className="section-button rounded-lg  border-2 ml-10 mt-4 border-opacity-3  border-gray-50   w-52 p-4 box-border transition duration-400 ease-in transform  hover:bg-white  hover:text-black">Get In Touch 👋🏻</a>
 				</section>
@@ -57,12 +57,12 @@ export default function Homepage() {
 			<main id="about" >
 				<section className="lg:mt-52 lg:flex lg:flex-col lg:ml-36 lg:mr-20 second-main mt-24 flex flex-col mb-20" data-aos="fade-up" data-aos-once="true">
 					<div className="lg:flex lg:flex-row lg:items-center flex flex-row items-center">
-						<span className="lg:font-bold info-head lg:text-3xl  animate__animated animate__fadeInUp ab-span text-4xl font-bold">&nbsp;&nbsp;About Me&nbsp;&nbsp;</span>
+						<span className="lg:font-bold info-head lg:text-3xl  animate__animated animate__fadeInUp ab-span text-4xl font-bold mr-1">&nbsp;&nbsp;About Me&nbsp;&nbsp;</span>
 						<hr className="lg:w-64 lg:ml-2 lg:opacity-40 -ml-7 animate__animated animate__fadeInUp ab-hr" />
 					</div>
 					<br />
 					<div className="lg:flex lg:flex-row  grid grid-rows-2 col-span-4   lg:items-center lg:justify-around ab-des-main w-full" >
-						<div className="lg:w-3/5 info-info lg:text-xl lg:opacity-60   text-lg opacity-80 ml-6  lg:text-left   "> Hello! I'm Krish, a computer science grad.
+						<div className="lg:w-3/5 info-info lg:text-xl lg:opacity-60   text-xl opacity-80 ml-6  lg:text-left   "> Hello! I'm Krish, a computer science grad.
 
 							When it comes to technology, there was always something that attracted me to learn and experiment with new things. The habit of asking questions for every new thing that attracted my eyes proved to be very beneficial to me. Exploring new things, finding answers, and creating something new is all that I do.
 
@@ -137,7 +137,7 @@ export default function Homepage() {
 					</li>
 				</ul>
 			</section>
-			<section className="lg:flex lg:flex-col lg:text-center pro  lg:items-center  lg:mt-96 lg:ml-0 lg:mr-0 flex flex-col  mt-96 items-center" data-aos="fade-up" id="projects" >
+			<section className="lg:flex lg:flex-col lg:text-center pro  lg:items-center  lg:mt-96 lg:ml-0 lg:mr-0 flex flex-col  mt-96 items-center -mb-96" data-aos="fade-up" id="projects" >
 				<h1 className="lg:mb-10 lg:text-3xl lg:font-bold mb-10 text-2xl text-center  font-bold ">Other Noteworthy Projects</h1>
 
 				<div className="lg:flex lg:flex-row  lg:gap-10 flex flex-col gap-5 ">
@@ -146,7 +146,7 @@ export default function Homepage() {
 					<Project title="" des="0A1A2F" gitlink="" extralink="" />
 				</div>
 			</section>
-			<section className="lg:flex lg:flex-col lg:justify-center lg:items-center foot-main flex flex-col justify-center items-center " data-aos="fade-up" data-aos-once="true" id="contact">
+			<section className="lg:flex lg:flex-col lg:justify-center lg:items-center foot-main flex flex-col justify-center items-center -mt-64" data-aos="fade-up" data-aos-once="true" id="contact">
 				<h5 className="foot-main-h5">What's Next?</h5>
 				<h1 className="foot-main-h1">Get In Touch</h1>
 				<h5 className="text-sm w-56 text-center opacity-20">I enjoy talking to new people so free feel to mail or connect with me</h5>
@@ -156,6 +156,12 @@ export default function Homepage() {
 				<a href="mailto:krishkashiwala@gmail.com" className="foot-button border-2 py-4 px-6 rounded-lg transition duration-300 ease-in-out hover:bg-white hover:text-black">Let's Talk</a>
 			</section>
 			<footer className="lg:text-center lg:opacity-20 lg:mt-52 text-center opacity-20 mt-52">
+				<ul className="lg:hidden flex flex-row items-center justify-evenly ml-16 mr-16 mb-10">
+					<li><a href="https://github.com/KrishKashiwala" className="foot-icon w-5 h-5"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></li>
+					<li><a href="https://www.linkedin.com/in/krish-kashiwala-4384521ab/" className="foot-icon w-5 h-5"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-linkedin"><title>LinkedIn</title><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a></li>
+					<li><a href="https://www.instagram.com/krish.kashiwala/" className="foot-icon w-5 h-5"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-instagram"><title>Instagram</title><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a></li>
+					<li><a href="https://twitter.com/krishebish" className="foot-icon w-5 h-5"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-twitter"><title>Twitter</title><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a></li>
+				</ul>
 				© 2021 Krish Kashiwala
 			</footer>
 

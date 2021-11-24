@@ -2,7 +2,7 @@ import '../css/project.css'
 const Project = ({ title, des, gitlink, extralink }: any) => {
 
 	return (
-		<div className="lg:w-80 lg:p-3  lg:flex lg:flex-col pro-main lg:rounded-2xl lg:mt-20 hvr-grow w-64 flex flex-col justify-items-center rounded-2xl justify-center p-3 text-sm">
+		<div className="lg:w-80 lg:p-3  lg:flex lg:flex-col pro-main lg:rounded-2xl lg:mt-20 hvr-grow w-72 flex flex-col justify-items-center rounded-2xl justify-center p-3 text-sm">
 
 			<div className="lg:flex lg:flex-row  lg:justify-between lg:items-center flex flex-row justify-between items-center ">
 				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Icons8_flat_opened_folder.svg/1200px-Icons8_flat_opened_folder.svg.png" className="w-16 h-16" alt="" />
