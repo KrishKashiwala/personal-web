@@ -127,3 +127,16 @@ html {
 .timeline{
 font-family: 'Space Mono', monospace;
 }
+@media screen and (max-width : 400px){
+	.container{
+		margin-top : 10em;
+		width : 100vw;
+	}
+	.container .content{
+		width : 20em;
+		height : 20em;
+		margin:0;
+		padding : 0;
+	}
+		
+}

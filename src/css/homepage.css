@@ -189,7 +189,7 @@ font-family: 'PT Sans', sans-serif;
         display: none;
     }
     .second-main{
-        margin-left : 0;
+        margin-left : 1em;
         margin-right : 0;
     }
     .info-head{
@@ -209,9 +209,7 @@ font-family: 'PT Sans', sans-serif;
     .ab-span{
         font-size : 20px;
     }
-    .ab-des-main{
-        width : 90%;
-    }
+   
     .info-info{
         width: 80%;
         margin-right : 0;
@@ -227,4 +225,19 @@ font-size : 40px;
         margin-left : 0;
         margin-right : 5px;
     }
+.main-h1{
+    font-size: 2.5em;
+    font-weight: bold;
+font-family: 'Questrial', sans-serif;
+    color :orange;
+}
+.main-h3{
+font-family: 'PT Sans', sans-serif;
+font-weight: 600;
+font-size : 30px;
+color :#AEA79C;
+}
+#experience {
+    margin-top:-50em;
+}
 }
