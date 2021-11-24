@@ -144,15 +144,7 @@ font-family: 'Space Mono', monospace;
 	.container{
 		margin : 0;
 	}	
-	.content 
-	{
-		margin : 0;
-		width : 100em;
-	}
-	.content__section{
-		width : 100em;
-	}	
-	.content__section.visible{
-		width : 100em;
+	.container .content p{
+		width : 13em;
 	}
 }

@@ -55,7 +55,7 @@ export default function Homepage() {
 			</main>
 
 			<main id="about" >
-				<section className="lg:mt-52 lg:flex lg:flex-col lg:ml-36 lg:mr-20 second-main mt-24 flex flex-col" data-aos="fade-up" data-aos-once="true">
+				<section className="lg:mt-52 lg:flex lg:flex-col lg:ml-36 lg:mr-20 second-main mt-24 flex flex-col mb-20" data-aos="fade-up" data-aos-once="true">
 					<div className="lg:flex lg:flex-row lg:items-center flex flex-row items-center">
 						<span className="lg:font-bold info-head lg:text-3xl  animate__animated animate__fadeInUp ab-span text-4xl font-bold">&nbsp;&nbsp;About Me&nbsp;&nbsp;</span>
 						<hr className="lg:w-64 lg:ml-2 lg:opacity-40 -ml-7 animate__animated animate__fadeInUp ab-hr" />
@@ -109,7 +109,7 @@ export default function Homepage() {
 							<Tilt scale={1}>
 								<div className="lg:border-2 lg:rounded-lg lg:border-yellow-400   lg:h-40 lg:px-32 lg:py-44 border-2 lg:-ml-10 rounded-lg border-yellow-400 w-36  h-52  ml-32 mt-14 ">
 								</div>
-								<img className="lg:w-64 lg:h-96 lg:rounded-lg lg:absolute lg:bottom-20 lg:right-16 w-44 ml-14  h-60 absolute right-24 bottom-6 rounded-lg" src="https://i.ibb.co/bbyxyQ7/Whats-App-Image-2021-11-12-at-9-37-12-PM.jpg" alt="pics" />
+								<img className="lg:w-64 lg:h-96 lg:rounded-lg lg:absolute lg:bottom-20 lg:right-16 w-40 ml-14  h-52 absolute  bottom-6 rounded-lg" src="https://i.ibb.co/bbyxyQ7/Whats-App-Image-2021-11-12-at-9-37-12-PM.jpg" alt="pics" />
 
 							</Tilt>
 						</div>
@@ -121,7 +121,7 @@ export default function Homepage() {
 					<h2 data-sr-id="3" className="visible animate__animated animate__fadeInUp opacity-100 lg:text-3xl exp-h2 lg:font-bold">Experience</h2>
 					<hr className="lg:w-64 lg:ml-4 text-gray-600 w-32 ml-4  opacity-40 animate__animated animate__fadeInUp" />
 				</div>
-				<div className="slider">
+				<div className="slider mt-10">
 					<Experience />
 				</div>
 			</section>
@@ -140,7 +140,7 @@ export default function Homepage() {
 			<section className="lg:flex lg:flex-col lg:text-center pro  lg:items-center  lg:mt-96 lg:ml-0 lg:mr-0 flex flex-col  mt-96 items-center" data-aos="fade-up" id="projects" >
 				<h1 className="lg:mb-10 lg:text-3xl lg:font-bold mb-10 text-2xl text-center  font-bold ">Other Noteworthy Projects</h1>
 
-				<div className="lg:flex lg:flex-row  lg:gap-10 flex flex-col gap-5  ">
+				<div className="lg:flex lg:flex-row  lg:gap-10 flex flex-col gap-5 ">
 					<Project clas title="Farmgistics" des="An online portal where farmers can sell their crops all over the nation without interference of farmer market." gitlink="https://github.com/KrishKashiwala/Farmgistics" extralink="" />
 					<Project title="Chat App" des="It's a command line based python chat application which basically connects two users on a socket connection and transfer of message does happen." gitlink="https://github.com/KrishKashiwala/cli-based-chat-app-using-python" extralink="https://www.linkedin.com/posts/krish-kashiwala-4384521ab_github-krishkashiwalacli-based-chat-app-using-python-activity-6851449785937903616-qGqM" />
 					<Project title="" des="0A1A2F" gitlink="" extralink="" />
