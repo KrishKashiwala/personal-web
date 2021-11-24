@@ -116,7 +116,7 @@ export default function Homepage() {
 					</div >
 				</section >
 			</main >
-			<section className=" lg:mt-64 -mt-96 lg:block" id="experience">
+			<section className=" lg:mt-64 sm:-mt-96 lg:block" id="experience">
 				<div className="lg:flex lg:flex-row lg:items-center  lg:ml-64 flex flex-row items-center text-2xl font-bold -ml-5 ">
 					<h2 data-sr-id="3" className="visible animate__animated animate__fadeInUp opacity-100 lg:text-3xl exp-h2 lg:font-bold">Experience</h2>
 					<hr className="lg:w-64 lg:ml-4 text-gray-600 w-32 ml-4  opacity-40 animate__animated animate__fadeInUp" />
@@ -125,7 +125,7 @@ export default function Homepage() {
 					<Experience />
 				</div>
 			</section>
-			<section id="projects" className="mt-1 lg:mt-96 mb-28">
+			<section id="projects" className="mt-1 lg:mt-96  mb-28">
 				<div className="lg:flex lg:flex-row lg:items-center lg:ml-64 flex flex-row items-center ml-5">
 					<h2 data-sr-id="3" className="lg:visible animate__animated animate__fadeInUp lg:opacity-100 lg:text-3xl pro-h2 lg:font-bold visible opacity-100 text-xl font-bold ml-1 text-center ">Some things I've Built</h2>
 					<hr className="lg:w-64 lg:ml-4 lg:text-gray-800  lg:opacity-80 animate__animated animate__fadeInUp w-12 ml-2" />

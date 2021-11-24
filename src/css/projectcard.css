@@ -51,3 +51,15 @@ color: #64FFDA;
 		z-index:9999;
 	}
 }
+@media(max-width : 650px){
+	.proj-main{
+		width : 70vw;
+		margin-left : 4.5em;
+	}
+	.proj-p{
+		margin-top : 0;
+	}
+	.content{
+		z-index:9999;
+	}
+}
