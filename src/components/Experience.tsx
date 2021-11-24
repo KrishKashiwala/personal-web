@@ -42,12 +42,12 @@ const Experience = () => {
 
 			<div className="content">
 
-				<div className="content__section visible" data-tab="1">
+				<div className="content__section visible w-auto" data-tab="1">
 					<p>Worked as <span className="high"> Team Lead and Frontend Developer</span> in more than 2 projects.</p>
 					<p className="opacity-60 timeline mt-2">June 2020 - August 2020</p>
 				</div>
 
-				<div className="content__section" data-tab="2">
+				<div className="content__section w-auto" data-tab="2">
 					<div>
 						<h1>CodeChef's College Chapter</h1>
 						<p>Member of <span className="high"> CHARUSAT Media and Outreach</span></p>

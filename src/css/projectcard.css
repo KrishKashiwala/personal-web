@@ -39,7 +39,7 @@ color: rgb(99, 96, 96);
 .link:hover{
 color: #64FFDA;
 }
-@media(max-width : 400px){
+@media(max-width : 430px){
 	.proj-main{
 		width : 70vw;
 		margin-left : 4.5em;

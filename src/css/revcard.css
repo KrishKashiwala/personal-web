@@ -41,7 +41,7 @@ color: rgb(99, 96, 96);
 
 color: #64FFDA;
 }
-@media(max-width : 400px){
+@media(max-width : 430px){
 	.rev-main{
 		margin-left : 4em;
 		margin-right : 0;

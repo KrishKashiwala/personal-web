@@ -17,7 +17,7 @@ const Project = ({ title, des, gitlink, extralink }: any) => {
 			</div>
 			<div className=" flex flex-col gap-5 mt-5">
 				<h1 className="text-2xl font-bold text-gray-300 justify-start">{title}</h1>
-				<h6 className="text-gray-400  flex justify-start w-60">{des}</h6>
+				<h6 className=" text-gray-400  flex justify-start w-auto">{des}</h6>
 			</div>
 			<div className="lg:w-72 lg:mt-5 w-full mt-5 overflow-hidden">
 				<div className="lg:grid lg:grid-cols-3 lg:font-thin lg:font-sans lg:opacity-40 grid grid-cols-3 opacity-40 font-sm font-sans grid-rows-3">
