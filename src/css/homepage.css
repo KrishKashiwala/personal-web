@@ -12,6 +12,7 @@ scroll-behavior: smooth !important;
 }
 body{
 	background : black;
+    
 	color : white;
 }
 body::-webkit-scrollbar {
@@ -240,6 +241,9 @@ color :#AEA79C;
 
 }
 @media(max-width:420px){
+    body{
+        overflow-x: hidden;
+    }
     .left-links{
         display: none;
     }
@@ -290,7 +294,7 @@ font-family: 'Questrial', sans-serif;
 .main-h3{
 font-family: 'PT Sans', sans-serif;
 font-weight: 600;
-font-size : 30px;
+font-size : 32px;
 color :#AEA79C;
 }
 #experience {

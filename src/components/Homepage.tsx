@@ -1,9 +1,9 @@
+import React from 'react'
 import '../css/homepage.css'
 import 'animate.css';
 import Navbar from './Navbar'
 import * as AOS from 'aos'
 import "aos/dist/aos.css";
-import React from 'react';
 import Tilt from 'react-tilted'
 import Project from './Project';
 import Projectcard from './Projectcard';
@@ -16,6 +16,8 @@ export default function Homepage() {
 			duration: 2000,
 		})
 	}, [])
+
+
 
 	return (
 		<div className="lg:mt-6">
@@ -43,19 +45,20 @@ export default function Homepage() {
 					<img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="logo512" className="w-11 absolute mid-down top-96 left-52 transform -rotate-360   scale-x-150 scale-y-150 " ></img>
 					<img src="https://www.vectorlogo.zone/logos/yarnpkg/yarnpkg-icon.svg" alt="logo512" className="w-11 absolute  bottom-10 bot-down right-52 transform -rotate-45" ></img>
 				</div>
-				<section className="lg:flex lg:flex-col lg:w-10/12 lg:ml-28 lg:mt-0 mt-44 mb-56 -ml-4">
+				<section className="lg:flex lg:flex-col lg:w-10/12 lg:ml-28 lg:mt-0 mt-20 mb-96 -ml-4">
 					<div className="main-section lg:ml-10 ml-10">
 						<span className="lg:font-normal lg:text-base main-span-1 lg:blur animate__animated animate__fadeInUp  text-sm">Hi 👋🏻, my name is</span>
 						<h1 className="main-h1  animate__animated animate__fadeInUp">Krish Kashiwala.</h1>
 						<h3 className="lg:w-3/4 main-h3 animate__animated animate__fadeInUp" >In <a title="(Bubinator), Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Love_Heart_SVG.svg"><img className="lg:w-9 lg:h-9 w-5 h-5" alt="Love Heart SVG" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Love_Heart_SVG.svg/512px-Love_Heart_SVG.svg.png" /></a> with  Technology, Photography and Humor.</h3>
-						<div className="lg:w-5/12 lg:mt-4 lg:mb-4 lg:font-normal lg:text-lg text-gray-600 animate__animated animate__fadeInUp text-sm mt-5 w-4/5 mb-10">I'm a computer science grad  who thinks with both left and right brains whether it's coding  or photography.</div>
+						<div className="lg:w-5/12 lg:mt-4 lg:mb-4 lg:font-normal lg:text-lg text-gray-600 animate__animated animate__fadeInUp text-sm mt-5 w-10/12  mb-10">I'm a computer science grad  who thinks with both left and right brains whether it's coding  or photography.</div>
 					</div>
 					<a href="mailto:krishkashiwala@gmail.com" className="section-button rounded-lg  border-2 ml-10 mt-4 border-opacity-3  border-gray-50   w-52 p-4 box-border transition duration-400 ease-in transform  hover:bg-white  hover:text-black">Get In Touch 👋🏻</a>
 				</section>
 			</main>
 
-			<main id="about" >
-				<section className="lg:mt-52 lg:flex lg:flex-col lg:ml-36 lg:mr-20 second-main mt-24 flex flex-col mb-20" data-aos="fade-up" data-aos-once="true">
+			<main id="about"  >
+				<section className="lg:mt-52 lg:flex lg:flex-col lg:ml-36 lg:mr-20 second-main flex flex-col  -mt-52" data-aos="fade-up" data-aos-once="true">
+
 					<div className="lg:flex lg:flex-row lg:items-center flex flex-row items-center">
 						<span className="lg:font-bold info-head lg:text-3xl  animate__animated animate__fadeInUp ab-span text-4xl font-bold mr-1">&nbsp;&nbsp;About Me&nbsp;&nbsp;</span>
 						<hr className="lg:w-64 lg:ml-2 lg:opacity-40 -ml-7 animate__animated animate__fadeInUp ab-hr" />
