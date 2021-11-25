@@ -240,7 +240,7 @@ color :#AEA79C;
 }
 
 }
-@media(max-width:420px){
+@media(max-width:430px){
     body{
         overflow-x: hidden;
     }
@@ -302,5 +302,8 @@ color :#AEA79C;
 }
  .foot-icon:hover{
     color:#64FFDA;
+ }
+ .activated{
+    filter:blur(10px) 
  }
 }

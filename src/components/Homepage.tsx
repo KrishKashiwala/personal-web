@@ -2,26 +2,36 @@ import React from 'react'
 import '../css/homepage.css'
 import 'animate.css';
 import Navbar from './Navbar'
-import * as AOS from 'aos'
 import "aos/dist/aos.css";
 import Tilt from 'react-tilted'
 import Project from './Project';
 import Projectcard from './Projectcard';
 import RevCard from './RevCard';
 import Experience from './Experience';
-
 export default function Homepage() {
-	React.useEffect(() => {
-		AOS.init({
-			duration: 2000,
-		})
-	}, [])
 
+	const [show, setShow] = React.useState<boolean>(false)
+	console.log(show)
+	window.onload = () => {
+		if (show) {
+			let body = document.querySelectorAll('.home-div')
+			let cn = "activated"
 
-
+			body.forEach(item => {
+				item.classList.add(cn)
+			})
+		}
+		if (!show) {
+			let cn = "activated"
+			let body = document.querySelectorAll('.home-div')
+			body.forEach(item => {
+				item.classList.remove(cn)
+			})
+		}
+	}
 	return (
-		<div className="lg:mt-6">
-			<Navbar />
+		<div className="mt-3 home-div ">
+			<Navbar show={show} setShow={setShow} />
 			<a href="mailto:krishkashiwala@gmail.com" className="lg:fixed lg:bottom-16 lg:block hidden lg:rounded-l-full lg:bg-gray-900 lg:py-4 lg:px-4 lg:-right-56 lg:transform lg:rotate-90 lg:bg-transparent lg:z-20 email-link">krishkashiwala@gmail.com <span className="text-white"> &nbsp;&nbsp;&nbsp;_________________________________________________________ </span></a>
 			<main className="lg:flex lg:justify-between lg:mt-24 ">
 				<div className=" lg:fixed lg:bottom-0 lg:ml-10 lg:bg-transparent lg:z-10 left-links">
@@ -56,11 +66,11 @@ export default function Homepage() {
 				</section>
 			</main>
 
-			<main id="about"  >
-				<section className="lg:mt-52 lg:flex lg:flex-col lg:ml-36 lg:mr-20 second-main flex flex-col  -mt-52" data-aos="fade-up" data-aos-once="true">
+			<main id="about" className="home-div" >
+				<section className="lg:mt-52 lg:flex lg:flex-col lg:ml-36 lg:mr-20 second-main flex flex-col  -mt-52 home-div" data-aos="fade-up" data-aos-once="true">
 
-					<div className="lg:flex lg:flex-row lg:items-center flex flex-row items-center">
-						<span className="lg:font-bold info-head lg:text-3xl  animate__animated animate__fadeInUp ab-span text-4xl font-bold mr-1">&nbsp;&nbsp;About Me&nbsp;&nbsp;</span>
+					<div className="lg:flex lg:flex-row lg:items-center flex flex-row items-center ">
+						<span className="lg:font-bold info-head lg:text-3xl  animate__animated animate__fadeInUp ab-span text-4xl font-bold ">&nbsp;&nbsp;About Me&nbsp;&nbsp;</span>
 						<hr className="lg:w-64 lg:ml-2 lg:opacity-40 -ml-7 animate__animated animate__fadeInUp ab-hr" />
 					</div>
 					<br />
@@ -119,12 +129,12 @@ export default function Homepage() {
 					</div >
 				</section >
 			</main >
-			<section className=" lg:mt-64 sm:-mt-96 lg:block" id="experience">
+			<section className=" lg:mt-64 sm:-mt-96 lg:block home-div" id="experience">
 				<div className="lg:flex lg:flex-row lg:items-center  lg:ml-64 flex flex-row items-center text-2xl font-bold -ml-5 ">
 					<h2 data-sr-id="3" className="visible animate__animated animate__fadeInUp opacity-100 lg:text-3xl exp-h2 lg:font-bold">Experience</h2>
 					<hr className="lg:w-64 lg:ml-4 text-gray-600 w-32 ml-4  opacity-40 animate__animated animate__fadeInUp" />
 				</div>
-				<div className="slider mt-10">
+				<div className="slider mt-10 animate__animated animate__fadeInDown">
 					<Experience />
 				</div>
 			</section>
