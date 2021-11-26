@@ -10,7 +10,7 @@ const Projectcard: React.FC = () => {
 		})
 	}, [])
 	return (
-		<div className="proj-main lg:items-center  lg:justify-end  text-sm flex items-center justify-start bg-gray-900 lg:bg-black " data-aos="fade-up">
+		<div className="proj-main lg:items-center  lg:justify-end  text-sm flex items-center justify-start backdrop-filter backdrop-blur-xl bg-transparent  " data-aos="fade-up">
 			<div className="lg:flex proj-sub-div lg:flex-col lg:justify-center lg:items-end  lg:p-5 lg:gap-4 lg:z-20 flex flex-col  justify-center items-start p-5 gap-4">
 				<p className="proj-p -mt-5">Featured Project</p>
 				<h3 className="proj-h3 font-bold text-4xl ">Farmgistics</h3>
@@ -22,7 +22,7 @@ const Projectcard: React.FC = () => {
 				</a>
 
 			</div>
-			<img className="proj-img hidden lg:block" src="https://i.ibb.co/XYQc8cs/pp-1.png" alt="pp-1"></img>
+			<img className="proj-img hidden  lg:block" src="https://i.ibb.co/XYQc8cs/pp-1.png" alt="pp-1"></img>
 		</div>
 	)
 

@@ -10,19 +10,14 @@
 *{
 scroll-behavior: smooth !important;
 }
-body{
-	background : black;
-    
-	color : white;
-}
 body::-webkit-scrollbar {
   width: 12px;               /* width of the entire scrollbar */
 }
 body::-webkit-scrollbar-track {
-  background: black;        /* color of the tracking area */
+  background: #0A192F;        /* color of the tracking area */
 }
 body::-webkit-scrollbar-thumb {
-  background-color: white;    /* color of the scroll thumb */
+  background-color: #64FFDA;    /* color of the scroll thumb */
   border-radius: 20px;       /* roundness of the scroll thumb */
 }
 ::selection {
@@ -60,10 +55,21 @@ backdrop-filter: blur(20px);
 .up-down{
     animation:MoveUpDown 5s linear infinite;
 }
+.t-top-down{
+    animation : TopDown 8s linear infinite;
+}
 
+@keyframes TopDown{
+    0%, 100% {
+        top:-3em;
+  }
+  50% {
+      top:3em;
+  }
+}
 @keyframes MoveUpDown{
     0%, 100% {
-        top:15em;
+        top:6em;
   }
   50% {
       top:12em;
@@ -81,11 +87,11 @@ backdrop-filter: blur(20px);
     }
 }
 .bot-down{
-    animation:botdown 5s linear infinite;
+    animation:botdown 7s linear infinite;
 }
 @keyframes botdown{
     0%,100%{
-            bottom:2em;
+            bottom:7em;
     }
     50%{
         bottom : 4em;
@@ -102,6 +108,7 @@ backdrop-filter: blur(20px);
         top : 8em;
     }
 }
+
 .section-button{
 font-family: 'Space Mono', monospace;
 }
@@ -150,7 +157,7 @@ font-family: 'Space Mono', monospace;
 font-family: 'PT Sans', sans-serif;
 font-weight: 600;
 font-size : 60px;
-line-height: 78px;
+line-height: 78pix;
 }
 .foot-button{
     border-color:#64FFDA;

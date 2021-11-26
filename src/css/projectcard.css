@@ -50,6 +50,7 @@ color: #64FFDA;
 	.content{
 		z-index:9999;
 	}
+		
 }
 @media(max-width : 650px){
 	.proj-main{

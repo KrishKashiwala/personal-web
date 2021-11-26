@@ -2,12 +2,11 @@ import '../css/experience.css'
 const Experience = () => {
 	window.onload = function () {
 		const tabs = document.querySelector('.tabs');
-		if (tabs) {
-			console.log(tabs)
-		}
+
 		tabs.addEventListener('click', e => handleClick(e));
 
 		function handleClick(e: any) {
+			console.log(e)
 			const target = e.target;
 			const tabNum = target.dataset.tab;
 			const activeTab = document.querySelector('.tabs .active');
@@ -27,13 +26,14 @@ const Experience = () => {
 			activeContent.classList.remove('visible');
 			currentContent.classList.add('visible');
 		}
+
 	}
 	return (
 		<div className="container">
 			<div className="tabs">
 
-				<div className="tab tab-1 active cursor-pointer" data-tab="1">Tech Exordium</div>
-				<div className="tab tab-2 cursor-pointer" data-tab="2">CodeChef</div>
+				<a href="#contact" className="tab tab-1 active cursor-pointer" data-tab="1">Tech Exordium</a>
+				<a href="#contact" className="tab tab-2 cursor-pointer" data-tab="2">CodeChef</a>
 				{/* <div className="tab tab-3 cursor-pointer" data-tab="3">Tab 3</div> */}
 
 				<span className="highlighter"></span>
@@ -55,9 +55,9 @@ const Experience = () => {
 					</div>
 				</div>
 
-				{/* <div className="content__section" data-tab="3">
+				<div className="content__section" data-tab="3">
 					<p>Gluten-free you probably haven't heard of them jianbing pitchfork pabst. Kombucha occupy iPhone live-edge beard iceland freegan small batch before they sold out DIY marfa chillwave sustainable taiyaki bushwick. Meggings franzen kogi, next level fingerstache +1 kitsch YOLO activated charcoal craft beer adaptogen twee. Yuccie tumeric irony heirloom, shoreditch kinfolk swag cold-pressed 90's chicharrones.</p>
-				</div> */}
+				</div>
 			</div>
 		</div>
 	)

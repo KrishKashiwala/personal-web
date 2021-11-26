@@ -4,21 +4,20 @@ import "aos/dist/aos.css";
 import SideNav from './SideNav';
 import React, { Dispatch, SetStateAction } from 'react'
 const Navbar: React.FC<{ show: boolean, setShow: Dispatch<SetStateAction<boolean>> }> = ({ show, setShow }) => {
-
 	const handleChange = () => {
 		setShow(!show)
 	}
 	return (
-		<div>
-			<div className=" lg:flex lg:flex-row lg:justify-between  lg:top-5  lg:ml-20 lg:mr-20  animate__animated animate__fadeInDown flex flex-row justify-between top-5 content-start items-start ml-6 mt-8 mr-10"  >
-				<section className="logo rounded bg-cover w-3 h-3 ">Hello</section>
+		<div className="nav-main lg:backdrop-filter lg:backdrop-blur-md lg:bg-transparent ">
+			<div className="    animate__animated animate__fadeInDown flex flex-row justify-between top-5  items-center ml-6 mt-8 mr-10 "  >
+				<img src="https://i.ibb.co/34ZgwCD/a.png" alt="a" className="cover w-14 h-14" />
 				<section className="lg:flex lg:flex-row lg:justify-between lg:w-3/12 hidden">
-					<a href="#about" className="nav-link cursor-pointer hover:text-white">About</a>
-					<a href="#experience" className="nav-link cursor-pointer hover:text-white">Experience</a>
-					<a href="#projects" className="nav-link cursor-pointer hover:text-white">Projects</a>
-					<a href="#contact" className="nav-link cursor-pointer hover:text-white">Contact</a>
+					<a href="#about" className="nav-link cursor-pointer animate__animated animate__fadeInDown hover:text-white">About</a>
+					<a href="#experience" className="nav-link cursor-pointer animate__animated animate__fadeInDown hover:text-white">Experience</a>
+					<a href="#projects" className="nav-link cursor-pointer animate__animated animate__fadeInDown hover:text-white">Projects</a>
+					<a href="#contact" className="nav-link cursor-pointer animate__animated animate__fadeInDown hover:text-white">Contact</a>
 				</section>
-				<a href="https://drive.google.com/file/d/1w3qbgyAChvafxCf8xXZvcQ8VhUZMOaxL/view" rel="noreferrer" target="_blank" className="hidden  lg:block nav-button lg:rounded-lg lg:overflow-hidden  lg:border-2 lg:border-opacity-3  lg:border-gray-50 lg:px-4 lg:py-1 lg:box-border lg:transition lg:duration-500 lg:ease-in-out lg:transform  lg:hover:bg-white  lg:hover:text-black">Resume </a>
+				<a href="https://drive.google.com/file/d/1w3qbgyAChvafxCf8xXZvcQ8VhUZMOaxL/view" rel="noreferrer" target="_blank" className="hidden nav-button  lg:block lg:rounded-lg lg:overflow-hidden  lg:border-2 lg:border-opacity-3  lg:border-gray-50 lg:px-4 lg:py-1 ">Resume </a>
 
 				{/* mobile logo */}
 				{!show &&
