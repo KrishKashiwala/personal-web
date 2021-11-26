@@ -43,6 +43,12 @@ color: #64FFDA;
 	.proj-main{
 		width : 70vw;
 		margin-left : 4.5em;
+	background-color:#112240; 
+    cursor: default;
+    border-radius: 12px;
+    background: linear-gradient(
+145deg, rgb(11, 27, 50), rgb(9, 23, 42));
+    box-shadow: rgb(7 18 33) 12px 12px 18px, rgb(13 32 61) -12px -12px 18px;
 	}
 	.proj-p{
 		margin-top : 0;

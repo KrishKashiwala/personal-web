@@ -10,7 +10,12 @@
 font-family: 'PT Sans', sans-serif;
 }
 .pro-main{
-	background-color:#112240 
+	background-color:#112240; 
+    cursor: default;
+    border-radius: 12px;
+    background: linear-gradient(
+145deg, rgb(11, 27, 50), rgb(9, 23, 42));
+    box-shadow: rgb(7 18 33) 12px 12px 18px, rgb(13 32 61) -12px -12px 18px;
 
 }
 .git-logo:hover{

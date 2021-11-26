@@ -11,7 +11,11 @@
 scroll-behavior: smooth !important;
 }
 body::-webkit-scrollbar {
-  width: 12px;               /* width of the entire scrollbar */
+  width: 0.8em;               /* width of the entire scrollbar */
+}
+body{
+    color : white;
+    
 }
 body::-webkit-scrollbar-track {
   background: #0A192F;        /* color of the tracking area */
@@ -89,12 +93,35 @@ backdrop-filter: blur(20px);
 .bot-down{
     animation:botdown 7s linear infinite;
 }
+.bot-bot-down{
+    animation:botbotdown 10s linear infinite;
+}
+.mid-bot-down{
+    animation:midbot 6s linear infinite;
+}
 @keyframes botdown{
     0%,100%{
             bottom:7em;
     }
     50%{
         bottom : 4em;
+    }
+}
+@keyframes botbotdown{
+    0%,100%{
+            bottom:12em;
+    }
+    50%{
+        bottom : 5em;
+    }
+}
+
+@keyframes midbot{
+    0%,100%{
+            bottom:-5em;
+    }
+    50%{
+        bottom : 5em;
     }
 }
 .top-down{

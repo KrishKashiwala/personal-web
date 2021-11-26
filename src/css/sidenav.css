@@ -1,0 +1,46 @@
+.side-main{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(23, 42, 69);
+    padding: 50px;
+    width: 70vw;
+    height: 110vh;
+    position: absolute;
+    right:0px;
+    margin-left: auto;
+    /* margin-top : -10em; */
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    box-shadow: rgb(2 12 27 / 70%) -10px 0px 30px -15px;	
+    padding: 25px;
+}
+.line-1{
+	color:  white;
+}
+.times{
+	display: flex;
+	justify-content: flex-end;
+	position: absolute;
+	right : 1em;
+	top :1em;
+	color:  #64FFDA;
+	width : 3em;
+}
+.side-button{
+    color: rgb(100, 255, 218);
+    background-color: transparent;
+    border: 1px solid rgb(100, 255, 218);
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    padding: 18px 50px;
+    margin: 10% auto 0px;
+    width: max-content;
+}

@@ -1,65 +1,31 @@
 import '../css/experience.css'
 const Experience = () => {
-	window.onload = function () {
-		const tabs = document.querySelector('.tabs');
-
-		tabs.addEventListener('click', e => handleClick(e));
-
-		function handleClick(e: any) {
-			console.log(e)
-			const target = e.target;
-			const tabNum = target.dataset.tab;
-			const activeTab = document.querySelector('.tabs .active');
-			const activeContent = document.querySelector(
-				'.content .visible'
-			);
-			const currentContent = document.querySelector(
-				`.content__section[data-tab='${tabNum}']`
-			);
-
-			if (!tabNum) {
-				return;
-			}
-
-			activeTab.classList.remove('active');
-			target.classList.add('active');
-			activeContent.classList.remove('visible');
-			currentContent.classList.add('visible');
-		}
-
-	}
 	return (
-		<div className="container">
-			<div className="tabs">
-
-				<a href="#contact" className="tab tab-1 active cursor-pointer" data-tab="1">Tech Exordium</a>
-				<a href="#contact" className="tab tab-2 cursor-pointer" data-tab="2">CodeChef</a>
-				{/* <div className="tab tab-3 cursor-pointer" data-tab="3">Tab 3</div> */}
-
-				<span className="highlighter"></span>
-
-			</div>
-
-			<div className="content">
-
-				<div className="content__section visible w-auto" data-tab="1">
-					<p>Worked as <span className="high"> Team Lead and Frontend Developer</span> in more than 2 projects.</p>
-					<p className="opacity-60 timeline mt-2">June 2020 - August 2020</p>
-				</div>
-
-				<div className="content__section w-auto" data-tab="2">
-					<div>
-						<h1>CodeChef's College Chapter</h1>
-						<p>Member of <span className="high"> CHARUSAT Media and Outreach</span></p>
-						<p className="opacity-60 timeline mt-2">Sept 2020 - Present</p>
+		<main className="CV-page">
+			<div className="CV-grid">
+				<div className="CV-grid-column">
+					<div className="CV-jobs">
+						<h2 className="CV-secondaryHeading CV-jobs-heading">Relevant Experience</h2>
+						<section className="CV-timeline CV-job">
+							<h3 className="CV-timeline-heading"><span className="CV-timeline-heading-title">Tech Exordium </span>&#8211; <span className="CV-timeline-heading-location"> New Delhi , India</span><small className="CV-timeline-heading-duration">June 2021 - August 2021</small></h3>
+							<ul className="CV-timeline-details">
+								<li className="CV-job-timeline-item">Developed and maintained code for client websites utilizing HTML5, CSS3, Javascript</li>
+								<li className="CV-job-timeline-item">Tested front-end code in multiple browsers to ensure cross-browser compatability.</li>
+								<li className="CV-job-timeline-item">Coordinated closely with other developers and co-founders.</li>
+								<li className="CV-job-timeline-item">Clients included Dosa vala, Baker Zone, Ridez, and more.</li>
+							</ul>
+						</section>
+						{/* <section className="CV-timeline CV-job">
+							<h3 className="CV-timeline-heading"><span className="CV-timeline-heading-title">Research Assistant </span>&#8211; <span className="CV-timeline-heading-location">NU College of Computer and Information Science</span><small className="CV-timeline-heading-duration">March 2015 - April 2015</small></h3>
+							<ul className="CV-timeline-details">
+								<li className="CV-timeline-details-item">Assisted a PhD student in the dept. of Human Computer Interaction with the development of a software prototype using front-end technologies to facilitate better understanding of parent-child communication preferences  and needs in low socio-economic status families. </li>
+								<li className="CV-timeline-details-item">Worked remotely to meet weekly deadlines and project checkpoints.</li>
+							</ul>
+						</section> */}
 					</div>
 				</div>
-
-				<div className="content__section" data-tab="3">
-					<p>Gluten-free you probably haven't heard of them jianbing pitchfork pabst. Kombucha occupy iPhone live-edge beard iceland freegan small batch before they sold out DIY marfa chillwave sustainable taiyaki bushwick. Meggings franzen kogi, next level fingerstache +1 kitsch YOLO activated charcoal craft beer adaptogen twee. Yuccie tumeric irony heirloom, shoreditch kinfolk swag cold-pressed 90's chicharrones.</p>
-				</div>
 			</div>
-		</div>
+		</main>
 	)
 
 }

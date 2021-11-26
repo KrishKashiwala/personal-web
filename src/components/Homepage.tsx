@@ -57,28 +57,38 @@ export default function Homepage() {
 					<div className="lg:flex hidden">
 						<img src="https://www.vectorlogo.zone/logos/github/github-tile.svg" className=" w-11  absolute top-28 left-52 top-down transform rotate-45  " alt="Git-Hub-Mark-32px" />
 						<img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" className=" w-24 transform -rotate-45 bot-down absolute bottom-6 left-16 " alt="Git-Hub-Mark-32px" />
-						<img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Chrome_icon_%28September_2014%29.svg" className="animate-spin w-11 absolute bottom-44 right-3  " alt="Git-Hub-Mark-32px" />
+						<img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Chrome_icon_%28September_2014%29.svg" className="animate-spin w-11 absolute bottom-36 right-3  " alt="Git-Hub-Mark-32px" />
 						<img src="https://i.ibb.co/YcfmN8W/logo512.png" alt="logo512" className="w-24 absolute   animate-spin transform  scale-x-150 scale-y-150  right-72 up-down" ></img>
 						<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="logo512" className="w-24 absolute mid-down bottom-64 right-64 transform rotate-45" ></img>
 						<img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg" alt="logo512" className="w-11 absolute top-32 right-24 " ></img>
 						<img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" alt="logo512" className="w-11 absolute top-64 left-20 " ></img>
 						<img src="https://www.vectorlogo.zone/logos/vim/vim-icon.svg" alt="logo512" className="w-32 absolute bottom-20 bot-down right-80 transform -rotate-45" ></img>
-						<img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="logo512" className="w-32 absolute right-2/4  bottom-2 bot-down  transform -rotate-360   scale-x-150 scale-y-150 " ></img>
-						<img src="https://www.vectorlogo.zone/logos/yarnpkg/yarnpkg-icon.svg" alt="logo512" className="w-11 absolute   bot-down right-52 transform -rotate-45" ></img>
+						<img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="logo512" className="w-20 absolute right-2/4  bottom-2 mid-bot-down  transform -rotate-360   scale-x-150 scale-y-150 " ></img>
+						{/* <img src="https://www.vectorlogo.zone/logos/yarnpkg/yarnpkg-icon.svg" alt="logo512" className="w-11 absolute   bot-down right-52 transform -rotate-45" ></img> */}
 					</div>
-					<section className="lg:flex lg:flex-col lg:w-10/12 lg:ml-28 lg:mt-20 mt-32 mb-96 -ml-4 ">
-						<div className="main-section lg:ml-10 ml-10">
-							<span className="lg:font-normal lg:text-base main-span-1  animate__animated animate__fadeInUp  lg:backdrop-filter lg:backdrop-blur-lg lg:bg-transparent text-sm">Hi 👋🏻, my name is</span>
-							<h1 className="main-h1  animate__animated animate__fadeInUp lg:backdrop-filter lg:backdrop-blur-lg lg:bg-transparent">Krish Kashiwala.</h1>
-							<h3 className="lg:w-8/12 main-h3 animate__animated animate__fadeInUp lg:backdrop-filter lg:backdrop-blur-lg lg:bg-transparent " >In <a title="(Bubinator), Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Love_Heart_SVG.svg"><img className="lg:w-10 lg:h-10 w-5 h-5" alt="Love Heart SVG" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Love_Heart_SVG.svg/512px-Love_Heart_SVG.svg.png" /></a> with  Technology, Photography and Humor.</h3>
-							<div className="lg:w-5/12 lg:mt-4 lg:mb-4 lg:font-normal lg:text-lg text-gray-600 animate__animated animate__fadeInUp  text-sm mt-5 w-10/12  lg:backdrop-filter lg:backdrop-blur-lg lg:bg-transparent mb-10">I'm a computer science grad  who thinks with both left and right brains whether it's coding  or photography.</div>
+					<img src="https://i.ibb.co/YcfmN8W/logo512.png " alt="logo512" className="w-16 absolute right-3  top-24  top-down  transform -rotate-360   scale-x-150 scale-y-150 lg:hidden" ></img>
+					{/* <img src=" https://www.vectorlogo.zone/logos/yarnpkg/yarnpkg-icon.svg" alt="logo512" className="w-24 absolute mid-down bottom-64 right-64 transform rotate-45" ></img> */}
+					<img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="logo512" className="w-24 absolute   animate-spin transform  scale-x-150 scale-y-150  right-72 up-down lg:hidden" ></img>
+					<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="logo512" className="w-24 absolute   bot-bot-down right-16 transform -rotate-45 lg:hidden" ></img>
+					<img src="https://www.vectorlogo.zone/logos/vim/vim-icon.svg" alt="logo512" className="w-10 absolute mid-bot-down right-80 transform -rotate-45 lg:hidden" ></img>
+					<img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg" alt="logo512" className="w-32 lg:block hidden absolute lg:-bottom-2/4 right-24 " ></img>
+					<a title="Henry Zhu, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Babel_Logo.svg"><img width="512" className="absolute lg:-bottom-3/4 -bottom-64" alt="Babel Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Babel_Logo.svg/512px-Babel_Logo.svg.png" /></a>
+					<section className="lg:flex lg:flex-col lg:w-10/12 lg:ml-28 lg:mt-20 mt-32 mb-96 -ml-4  lg:backdrop-filter-none  backdrop-filter backdrop-blur-lg bg-transparent">
+						<div className="main-section lg:ml-10 ml-10  backdrop-filter backdrop-blur-lg bg-transparent lg:w-11/12">
+							<span className="lg:font-normal lg:text-base main-span-1  animate__animated animate__fadeInUp  lg:backdrop-filter lg:backdrop-blur-lg lg:bg-transparent backdrop-filter backdrop-blur-lg bg-transparent text-sm">Hi 👋🏻, my name is</span>
+							<h1 className="main-h1  animate__animated animate__fadeInUp lg:backdrop-filter lg:backdrop-blur-lg lg:bg-transparent backdrop-filter backdrop-blur-lg bg-transparent ">Krish Kashiwala.</h1>
+							<h3 className="lg:w-8/12 main-h3 animate__animated animate__fadeInUp lg:backdrop-filter lg:backdrop-blur-lg lg:bg-transparent backdrop-filter backdrop-blur-lg bg-transparent " >
+								In  ❤️ with  Technology, Photography and Humor.
+
+							</h3>
+							<div className="lg:w-5/12 lg:mt-4 lg:mb-4 lg:font-normal lg:text-lg  text-gray-300 animate__animated animate__fadeInUp  text-sm mt-10 w-10/12  lg:backdrop-filter lg:backdrop-blur-lg lg:bg-transparent  mb-10 backdrop-filter backdrop-blur-lg bg-transparent">I'm a computer science grad  who thinks with both left and right brains whether it's coding  or photography.</div>
 						</div>
-						<a href="mailto:krishkashiwala@gmail.com" className="section-button rounded-lg  border-2 ml-10 mt-4 border-opacity-3  border-gray-50   w-52 p-4 box-border transition duration-400 ease-in transform  hover:bg-white  hover:text-black">Get In Touch 👋🏻</a>
+						<a href="mailto:krishkashiwala@gmail.com" className="section-button rounded-lg  border-2 ml-10 mt-10 border-opacity-3  border-gray-50   w-52 p-4 box-border transition duration-400 ease-in transform  hover:bg-white  hover:text-black lg:backdrop-filter lg:backdrop-blur-lg lg:bg-transparent backdrop-filter backdrop-blur-lg bg-transparent">Get In Touch 👋🏻</a>
 					</section>
 				</main>
 
-				<main id="about" className="home-div" >
-					<section className="lg:mt-52 lg:flex lg:flex-col lg:ml-36 lg:mr-20 second-main flex flex-col  -mt-52 home-div" data-aos="fade-up" data-aos-once="true">
+				<main id="about" className="home-div backdrop-filter backdrop-blur-lg bg-transparent lg:backdrop-filter lg:backdrop-blur-lg lg:bg-transparent" >
+					<section className="lg:mt-32 lg:flex lg:flex-col lg:ml-36 lg:mr-20 second-main flex flex-col  -mt-52 home-div" data-aos="fade-up" data-aos-once="true">
 
 						<a title="Henry Zhu, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Babel_Logo.svg"><img className=" hidden lg:w-64 lg:z-0 lg:h-32 lg:absolute lg:-left-24 t-top-down" alt="Babel Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Babel_Logo.svg/512px-Babel_Logo.svg.png" /></a>
 						<div className="lg:flex lg:flex-row lg:items-center flex flex-row items-center ">
@@ -134,7 +144,7 @@ export default function Homepage() {
 								<Tilt scale={1}>
 									<div className="lg:border-2 lg:rounded-lg lg:border-yellow-400   lg:h-40 lg:px-32 lg:py-44 border-2 lg:-ml-10 rounded-lg border-yellow-400 w-36  h-52  ml-32 mt-14 ">
 									</div>
-									<img className="lg:w-64 lg:h-96 lg:rounded-lg lg:absolute lg:bottom-20 lg:right-16 w-40 ml-14  h-52 absolute  bottom-6 rounded-lg" src="https://i.ibb.co/bbyxyQ7/Whats-App-Image-2021-11-12-at-9-37-12-PM.jpg" alt="pics" />
+									<img className="lg:w-64 lg:h-96 lg:rounded-lg lg:absolute lg:bottom-20 lg:right-16 w-40 ml-14  h-52 absolute  bottom-6 rounded-lg" src="https://i.ibb.co/9YYr9B6/IMG-20211124-WA0004.jpg" alt="pics" />
 
 								</Tilt>
 							</div>
@@ -168,7 +178,7 @@ export default function Homepage() {
 					<div className="lg:flex lg:flex-row  lg:gap-10 flex flex-col gap-5 ">
 						<Project clas title="Farmgistics" des="An online portal where farmers can sell their crops all over the nation without interference of farmer market." gitlink="https://github.com/KrishKashiwala/Farmgistics" extralink="" />
 						<Project title="Chat App" des="It's a command line based python chat application which basically connects two users on a socket connection and transfer of message does happen." gitlink="https://github.com/KrishKashiwala/cli-based-chat-app-using-python" extralink="https://www.linkedin.com/posts/krish-kashiwala-4384521ab_github-krishkashiwalacli-based-chat-app-using-python-activity-6851449785937903616-qGqM" />
-						<Project title="" des="0A1A2F" gitlink="" extralink="" />
+						{/* <Project title="" des="0A1A2F" gitlink="" extralink="" /> */}
 					</div>
 				</section>
 				<section className="lg:flex lg:flex-col lg:justify-center lg:items-center foot-main flex flex-col justify-center items-center -mt-64" data-aos="fade-up" data-aos-once="true" id="contact">
