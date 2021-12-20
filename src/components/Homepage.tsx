@@ -43,15 +43,15 @@ export default function Homepage() {
 
 			<div className="mt-3 home-div ">
 				<Navbar show={show} setShow={setShow} />
-				<a href="mailto:krishkashiwala@gmail.com" className="lg:fixed lg:bottom-16 lg:block hidden lg:rounded-l-full lg:backdrop-filter lg:backdrop-blur-lg lg:py-4 lg:px-4 lg:-right-56 lg:transform lg:rotate-90 lg:bg-transparent lg:z-20 email-link">krishkashiwala@gmail.com <span className="text-white"> &nbsp;&nbsp;&nbsp;_________________________________________________________ </span></a>
+				<a href="mailto:krishkashiwala@gmail.com" className="lg:fixed   lg:block hidden   lg:rounded-l-full lg:backdrop-filter lg:backdrop-blur-lg lg:py-4 lg:px-4 lg:-right-48  lg:bottom-32 lg:transform lg:rotate-90 lg:bg-transparent lg:z-20 email-link">krishkashiwala@gmail.com &nbsp;<span>----------------------------------------------</span> </a>
 				<main className="lg:flex lg:justify-between lg:mt-24 ">
 					<div className=" lg:fixed lg:bottom-0 lg:ml-10 lg:bg-transparent lg:z-10 left-links">
-						<ul className="lg:flex lg:flex-col lg:justify-between lg:gap-5 lg:h-full lg:p-4 lg:backdrop-filter lg:backdrop-blur-lg lg:bg-transparent hidden lg:blur lg:rounded-t-full">
+						<ul className="lg:flex lg:flex-col lg:justify-between lg:gap-5 lg:h-full lg:p-4 lg:backdrop-filter lg:backdrop-blur-lg lg:bg-transparent hidden  lg:blur lg:rounded-t-full">
 							<a href="https://github.com/KrishKashiwala" rel="noreferrer" target="_blank" className="media-links transform transition duration-300 ease-in hover:-translate-y-1"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-github w-5 h-5"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
 							<a href="https://www.linkedin.com/in/krish-kashiwala-4384521ab/" rel="noreferrer" target="_blank" className="media-links transform transition duration-300 ease-in hover:-translate-y-1"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-linkedin"><title>LinkedIn</title><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a >
 							<a href="https://www.instagram.com/krish.kashiwala/" target="_blank" rel="noreferrer" className="media-links transform transition duration-300 ease-in hover:-translate-y-1"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-instagram"><title>Instagram</title><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a >
 							<a href="https://twitter.com/krishebish" target="_blank" rel="noreferrer" className="media-links transform transition duration-300 ease-in hover:-translate-y-1"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-twitter"><title>Twitter</title><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a >
-							<div className="ml-2 border-l-2 border-l-white h-24 "></div>
+							<div className="ml-2 border-l-2 border-l-white h-24 left-link-bo"></div>
 						</ul>
 					</div>
 					<div className="lg:flex hidden">
@@ -72,22 +72,23 @@ export default function Homepage() {
 					<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="logo512" className="w-24 absolute   bot-bot-down right-16 transform -rotate-45 lg:hidden" ></img>
 					<img src="https://www.vectorlogo.zone/logos/vim/vim-icon.svg" alt="logo512" className="w-10 absolute mid-bot-down right-80 transform -rotate-45 lg:hidden" ></img>
 					<img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg" alt="logo512" className="w-32 lg:block hidden absolute lg:-bottom-2/4 right-24 " ></img>
-					<a title="Henry Zhu, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Babel_Logo.svg"><img width="512" className="absolute lg:-bottom-3/4 -bottom-64" alt="Babel Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Babel_Logo.svg/512px-Babel_Logo.svg.png" /></a>
+					<a title="Henry Zhu, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Babel_Logo.svg"><img width="512" className="absolute  lg:-bottom-3/4 -bottom-64" alt="Babel Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Babel_Logo.svg/512px-Babel_Logo.svg.png" /></a>
 					<section className="lg:flex lg:flex-col lg:w-10/12 lg:ml-28 lg:mt-20 mt-32 mb-96 -ml-4  lg:backdrop-filter-none  backdrop-filter backdrop-blur-lg bg-transparent">
 						<div className="main-section lg:ml-10 ml-10  backdrop-filter backdrop-blur-lg bg-transparent lg:w-11/12">
 							<span className="lg:font-normal lg:text-base main-span-1  animate__animated animate__fadeInUp  lg:backdrop-filter lg:backdrop-blur-lg lg:bg-transparent backdrop-filter backdrop-blur-lg bg-transparent text-sm">Hi 👋🏻, my name is</span>
 							<h1 className="main-h1  animate__animated animate__fadeInUp lg:backdrop-filter lg:backdrop-blur-lg lg:bg-transparent backdrop-filter backdrop-blur-lg bg-transparent ">Krish Kashiwala.</h1>
-							<h3 className="lg:w-8/12 main-h3 animate__animated animate__fadeInUp lg:backdrop-filter lg:backdrop-blur-lg lg:bg-transparent backdrop-filter backdrop-blur-lg bg-transparent " >
-								In  ❤️ with  Technology, Photography and Humor.
+							<div className="lg:w-9/12 main-h3 animate__animated animate__fadeInUp lg:backdrop-filter lg:backdrop-blur-lg lg:bg-transparent backdrop-filter backdrop-blur-lg bg-transparent " >
+								In &nbsp;&nbsp;&nbsp;&nbsp;with  Technology, Photography and Humor.
 
-							</h3>
-							<div className="lg:w-5/12 lg:mt-4 lg:mb-4 lg:font-normal lg:text-lg  text-gray-300 animate__animated animate__fadeInUp  text-sm mt-10 w-10/12  lg:backdrop-filter lg:backdrop-blur-lg lg:bg-transparent  mb-10 backdrop-filter backdrop-blur-lg bg-transparent">I'm a computer science grad  who thinks with both left and right brains whether it's coding  or photography.</div>
+							</div>
+							<img className="lg:w-10 lg:absolute lg:z-20 lg:top-44 lg:left-16 lg:h-10 absolute w-6 h-6 z-20 top-24 left-9 " src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Love_Heart_SVG.svg/1200px-Love_Heart_SVG.svg.png" alt="Love Heart SVG.svg" />
+							<div className="lg:w-5/12 lg:mt-4 lg:mb-4 lg:font-normal lg:text-lg  text-gray-300 animate__animated animate__fadeInUp  text-sm mt-10 w-10/12   lg:backdrop-filter lg:backdrop-blur-lg lg:bg-transparent small-des  mb-10 backdrop-filter backdrop-blur-lg bg-transparent">I'm a computer science grad  who thinks with both left and right brains whether it's coding  or photography.</div>
 						</div>
-						<a href="mailto:krishkashiwala@gmail.com" className="section-button rounded-lg  border-2 ml-10 mt-10 border-opacity-3  border-gray-50   w-52 p-4 box-border transition duration-400 ease-in transform  hover:bg-white  hover:text-black lg:backdrop-filter lg:backdrop-blur-lg lg:bg-transparent backdrop-filter backdrop-blur-lg bg-transparent">Get In Touch 👋🏻</a>
+						<a href="mailto:krishkashiwala@gmail.com" className=" animate__animated animate__fadeInDown section-button rounded-lg  border-2 ml-10 mt-10 border-opacity-3  border-gray-50   w-52 p-4 box-border transition duration-400 ease-in transform  hover:bg-white  hover:text-black lg:backdrop-filter lg:backdrop-blur-lg lg:bg-transparent backdrop-filter backdrop-blur-lg bg-transparent">Get In Touch 👋🏻</a>
 					</section>
 				</main>
 
-				<main id="about" className="home-div backdrop-filter backdrop-blur-lg bg-transparent lg:backdrop-filter lg:backdrop-blur-lg lg:bg-transparent" >
+				<main id="about" className="home-div lg:p-1  backdrop-filter backdrop-blur-lg bg-transparent lg:backdrop-filter lg:backdrop-blur-lg lg:bg-transparent" >
 					<section className="lg:mt-32 lg:flex lg:flex-col lg:ml-36 lg:mr-20 second-main flex flex-col  -mt-52 home-div" data-aos="fade-up" data-aos-once="true">
 
 						<a title="Henry Zhu, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Babel_Logo.svg"><img className=" hidden lg:w-64 lg:z-0 lg:h-32 lg:absolute lg:-left-24 t-top-down" alt="Babel Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Babel_Logo.svg/512px-Babel_Logo.svg.png" /></a>
@@ -151,16 +152,16 @@ export default function Homepage() {
 						</div >
 					</section >
 				</main >
-				<section className=" lg:mt-64 sm:-mt-96 lg:block home-div" id="experience">
+				<section className=" lg:mt-64 lg:-ml-10 sm:-mt-96 lg:block " id="experience">
 					<div className="lg:flex lg:flex-row lg:items-center  lg:ml-64 flex flex-row items-center text-2xl font-bold -ml-5 ">
 						<h2 data-sr-id="3" className="visible animate__animated animate__fadeInUp opacity-100 lg:text-3xl exp-h2 lg:font-bold">Experience</h2>
 						<hr className="lg:w-64 lg:ml-4 text-gray-600 w-32 ml-4  opacity-40 animate__animated animate__fadeInUp" />
 					</div>
-					<div className="slider mt-10 animate__animated animate__fadeInDown">
+					<div className=" mt-10 animate__animated animate__fadeInDown">
 						<Experience />
 					</div>
 				</section>
-				<section id="projects" className="mt-1 lg:mt-96  mb-28">
+				<section id="projects" className=" lg:mt-96 lg:-ml-10  mb-28 mt-24">
 					<div className="lg:flex lg:flex-row lg:items-center lg:ml-64 flex flex-row items-center ml-5">
 						<h2 data-sr-id="3" className="lg:visible animate__animated animate__fadeInUp lg:opacity-100 lg:text-3xl pro-h2 lg:font-bold visible opacity-100 text-xl font-bold ml-1 text-center ">Some things I've Built</h2>
 						<hr className="lg:w-64 lg:ml-4 lg:text-gray-800  lg:opacity-80 animate__animated animate__fadeInUp w-12 ml-2" />
@@ -176,8 +177,8 @@ export default function Homepage() {
 					<h1 className="lg:mb-10 lg:text-3xl lg:font-bold mb-10 text-2xl text-center  font-bold ">Other Noteworthy Projects</h1>
 
 					<div className="lg:flex lg:flex-row  lg:gap-10 flex flex-col gap-5 ">
-						<Project clas title="Farmgistics" des="An online portal where farmers can sell their crops all over the nation without interference of farmer market." gitlink="https://github.com/KrishKashiwala/Farmgistics" extralink="" />
-						<Project title="Chat App" des="It's a command line based python chat application which basically connects two users on a socket connection and transfer of message does happen." gitlink="https://github.com/KrishKashiwala/cli-based-chat-app-using-python" extralink="https://www.linkedin.com/posts/krish-kashiwala-4384521ab_github-krishkashiwalacli-based-chat-app-using-python-activity-6851449785937903616-qGqM" />
+						<Project lang={['Typescript', 'ReactJS', 'ExpressJS', 'GraphQL', 'MongoDB']} title="Keep Clone" des="A simple Keep clone built using React.js and MongoDB" gitlink="https://github.com/KrishKashiwala/keep-clone-web" extralink="http://keep-clone-web.netlify.app/" />
+						<Project lang={['Python']} title="Chat App" des="It's a command line based python chat application which basically connects two users on a socket connection and transfer of message does happen." gitlink="https://github.com/KrishKashiwala/cli-based-chat-app-using-python" extralink="https://www.linkedin.com/posts/krish-kashiwala-4384521ab_github-krishkashiwalacli-based-chat-app-using-python-activity-6851449785937903616-qGqM" />
 						{/* <Project title="" des="0A1A2F" gitlink="" extralink="" /> */}
 					</div>
 				</section>
@@ -188,7 +189,7 @@ export default function Homepage() {
 					<br />
 					<h5> 🤖</h5>
 					<br />
-					<a href="mailto:krishkashiwala@gmail.com" className="foot-button border-2 py-4 px-6 rounded-lg transition duration-300 ease-in-out hover:bg-white hover:text-black">Let's Talk</a>
+					<a href="mailto:krishkashiwala@gmail.com" className="foot-button border-2 py-4 px-6 rounded-lg transition duration-300 ease-in-out  ">Let's Talk</a>
 				</section>
 				<footer className="lg:text-center lg:opacity-20 lg:mt-52 text-center opacity-20 mt-52">
 					<ul className="lg:hidden flex flex-row items-center justify-evenly ml-16 mr-16 mb-10">

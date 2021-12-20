@@ -15,13 +15,7 @@ const Experience = () => {
 								<li className="CV-job-timeline-item">Clients included Dosa vala, Baker Zone, Ridez, and more.</li>
 							</ul>
 						</section>
-						{/* <section className="CV-timeline CV-job">
-							<h3 className="CV-timeline-heading"><span className="CV-timeline-heading-title">Research Assistant </span>&#8211; <span className="CV-timeline-heading-location">NU College of Computer and Information Science</span><small className="CV-timeline-heading-duration">March 2015 - April 2015</small></h3>
-							<ul className="CV-timeline-details">
-								<li className="CV-timeline-details-item">Assisted a PhD student in the dept. of Human Computer Interaction with the development of a software prototype using front-end technologies to facilitate better understanding of parent-child communication preferences  and needs in low socio-economic status families. </li>
-								<li className="CV-timeline-details-item">Worked remotely to meet weekly deadlines and project checkpoints.</li>
-							</ul>
-						</section> */}
+
 					</div>
 				</div>
 			</div>

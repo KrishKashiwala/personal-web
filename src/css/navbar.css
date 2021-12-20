@@ -1,4 +1,4 @@
-.nav-main{
+.nav-main {
     -webkit-box-pack: justify;
     justify-content: space-between;
     -webkit-box-align: center;
@@ -8,44 +8,46 @@
     width: 100%;
     backdrop-filter: saturate(100%) blur(10px);
     z-index: 30000;
-    height:fit-content;
+    height: fit-content;
     box-shadow: rgb(2 12 27 / 70%) 0px 10px 30px -10px;
+    align-items: center;
     transform: translateY(0px);
     filter: none !important;
     pointer-events: auto !important;
     user-select: auto !important;
 }
-.nav-button{
-	background-size:200%;
-    border-color: #64FFDA;
-	transition: ease-in-out 0.3s;
-    color: #64FFDA;
+.nav-button {
+    background-size: 200%;
+    border-color: #64ffda;
+    transition: ease-in-out 0.3s;
+    color: #64ffda;
     z-index: 20;
 }
-.nav-button:hover{
-    background-color: #08745a;
+.nav-button:hover {
+    color: black;
+    background-color: #60f3d0;
 }
-.nav-button:hover{
-	background-position: left;
+.nav-button:hover {
+    background-position: left;
 }
-.nav-link{
-	color:#666;
+.nav-link {
+    color: #666;
 }
 .nav-link::after {
-    content: '';
+    content: "";
     display: block;
     width: 0;
     height: 3px;
     background: orange;
     margin-top: 10px;
-    transition: ease-in-out .3s;
+    transition: ease-in-out 0.3s;
 }
 
 .nav-link:hover::after {
     width: 100%;
-    transition:width 0.3s;
+    transition: width 0.3s;
 }
 
-.top-nav{
-    border-color :#64FFDA ;
+.top-nav {
+    border-color: #64ffda;
 }

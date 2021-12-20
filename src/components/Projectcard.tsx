@@ -8,7 +8,9 @@ const Projectcard: React.FC = () => {
 		AOS.init({
 			duration: 2000,
 		})
+
 	}, [])
+
 	return (
 		<div className="proj-main lg:items-center  lg:justify-end  text-sm flex items-center justify-start backdrop-filter backdrop-blur-xl bg-transparent  " data-aos="fade-up">
 			<div className="lg:flex proj-sub-div lg:flex-col lg:justify-center lg:items-end  lg:p-5 lg:gap-4 lg:z-20 flex flex-col  justify-center items-start p-5 gap-4">
@@ -24,6 +26,7 @@ const Projectcard: React.FC = () => {
 			</div>
 			<img className="proj-img hidden  lg:block" src="https://i.ibb.co/XYQc8cs/pp-1.png" alt="pp-1"></img>
 		</div>
+
 	)
 
 }

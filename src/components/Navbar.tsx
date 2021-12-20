@@ -9,7 +9,7 @@ const Navbar: React.FC<{ show: boolean, setShow: Dispatch<SetStateAction<boolean
 	}
 	return (
 		<div className="nav-main lg:backdrop-filter lg:backdrop-blur-md lg:bg-transparent ">
-			<div className="    animate__animated animate__fadeInDown flex flex-row justify-between top-5  items-center ml-6 mt-8 mr-10 "  >
+			<div className="    animate__animated animate__fadeInDown flex flex-row justify-between lg:align-middle top-5  items-center ml-6 mt-8 mr-10 "  >
 				<img src="https://i.ibb.co/34ZgwCD/a.png" alt="a" className="cover w-14 h-14 rounded-xl" />
 				<section className="lg:flex lg:flex-row lg:justify-between lg:w-3/12 hidden">
 					<a href="#about" className="nav-link cursor-pointer animate__animated animate__fadeInDown hover:text-white">About</a>

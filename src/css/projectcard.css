@@ -17,6 +17,7 @@
 .proj-img{
 	width:34em;
 	height : 20em;
+	object-fit: contain;
 
 }
 .proj-p{
