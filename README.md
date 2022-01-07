@@ -1,6 +1,6 @@
 
 
-![demo]("https://i.ibb.co/2cftsKp/demo.png")
+![demo]("https://raw.githubusercontent.com/KrishKashiwala/personal-web/main/demo.png")
 
 
 ## 🛠 Installation & Set Up
