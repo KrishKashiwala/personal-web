@@ -1,6 +1,8 @@
 
+<a href = "https://krishkashiwala.netlify.app/">
+<img src="https://raw.githubusercontent.com/KrishKashiwala/personal-web/main/demo.png"/>
+</a>
 
-![demo]("https://raw.githubusercontent.com/KrishKashiwala/personal-web/main/demo.png")
 
 
 ## 🛠 Installation & Set Up
