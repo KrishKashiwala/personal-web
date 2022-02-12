@@ -17,7 +17,7 @@ const Navbar: React.FC<{ show: boolean, setShow: Dispatch<SetStateAction<boolean
 					<a href="#projects" className="nav-link cursor-pointer animate__animated animate__fadeInDown hover:text-white">Projects</a>
 					<a href="#contact" className="nav-link cursor-pointer animate__animated animate__fadeInDown hover:text-white">Contact</a>
 				</section>
-				<a href="https://drive.google.com/file/d/1w3qbgyAChvafxCf8xXZvcQ8VhUZMOaxL/view" rel="noreferrer" target="_blank" className="hidden nav-button  lg:block lg:rounded-lg lg:overflow-hidden  lg:border-2 lg:border-opacity-3  lg:border-gray-50 lg:px-4 lg:py-1 ">Resume </a>
+				<a href="https://drive.google.com/file/d/1iNltzIHukpyQK3Mz_pgOfge7X-1FVsgb/view" rel="noreferrer" target="_blank" className="hidden nav-button  lg:block lg:rounded-lg lg:overflow-hidden  lg:border-2 lg:border-opacity-3  lg:border-gray-50 lg:px-4 lg:py-1 ">Resume </a>
 
 				{/* mobile logo */}
 				{!show &&
