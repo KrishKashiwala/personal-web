@@ -145,7 +145,7 @@ export default function Homepage() {
 								<Tilt scale={1}>
 									<div className="lg:border-2 lg:rounded-lg lg:border-yellow-400   lg:h-40 lg:px-32 lg:py-44 border-2 lg:-ml-10 rounded-lg border-yellow-400 w-36  h-52  ml-32 mt-14 ">
 									</div>
-									<img className="lg:w-64 lg:h-96 lg:rounded-lg lg:absolute lg:bottom-20 lg:right-16 w-40 ml-14  h-52 absolute  bottom-6 rounded-lg" src="https://i.ibb.co/rtXw0t7/a.jpg" alt="pics" />
+									<img className="lg:w-64 lg:h-96 lg:rounded-lg lg:absolute lg:bottom-20 lg:right-16 w-40 ml-14  h-52 absolute  bottom-6 rounded-lg" src="https://i.ibb.co/JC6pYWz/20220313-131537.jpg" alt="pics" />
 
 								</Tilt>
 							</div>
