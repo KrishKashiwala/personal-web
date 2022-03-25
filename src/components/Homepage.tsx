@@ -119,6 +119,7 @@ export default function Homepage() {
 										<li className="spc-li"> MongoDB 🔥</li>
 										<li className="spc-li"> Node.js 💚</li>
 										<li className="spc-li"> TypeScript 👩‍💻</li>
+										<li className="spc-li"> Docker ⚡</li>
 									</div>
 									&nbsp;
 									&nbsp;
