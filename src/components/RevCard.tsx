@@ -10,7 +10,7 @@ const RevCard: React.FC = () => {
 		})
 	}, [])
 	return (
-		<a href="https://octoprofile-krishkashiwala.vercel.app/" target="_blank" rel='noopener noreferrer'>
+		<a href="https://octoprofiler.vercel.app/" target="_blank" rel='noopener noreferrer'>
 			<div className="rev-main lg:items-center lg:justify-start  flex items-center justify-start flex-col text-start  " data-aos="fade-down">
 				<div className="lg:flex rev-sub-div lg:flex-col lg:justify-center  lg:items-start  lg:p-5 lg:mt-16 lg:gap-4 lg:z-20 flex flex-col  justify-center items-start gap-4 p-5">
 					<p className="rev-p ">Featured Project</p>
