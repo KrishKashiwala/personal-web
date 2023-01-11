@@ -337,7 +337,7 @@ export default function Homepage() {
               </div>
               <div data-aos="fade-up">
                 <Tilt scale={1}>
-                  <div className="lg:border-2 lg:rounded-lg lg:border-yellow-400   lg:h-80 lg:px-32 lg:py-44 border-2 lg:-ml-10 rounded-lg border-yellow-400 w-36  h-52  ml-32 mt-14 "></div>
+                  <div className="lg:border-2 lg:rounded-lg lg:border-yellow-400  lg:h-64 lg:w-80 lg:mb-96  lg:py-44 border-2 lg:-ml-10 rounded-lg border-yellow-400 w-36  h-52  ml-32 mt-14 "></div>
                   <img
                     className="lg:w-96 lg:h-80 lg:rounded-lg lg:absolute lg:bottom-12 lg:right-16 w-40 ml-14  h-52 absolute  bottom-6 rounded-lg"
                     src="https://i.ibb.co/88VgcFR/Whats-App-Image-2022-12-06-at-5-21-39-PM.jpg"
@@ -405,7 +405,7 @@ export default function Homepage() {
           </ul>
         </section>
         <section
-          className="lg:flex lg:flex-col lg:text-center pro  lg:items-center  lg:mt-96 lg:ml-0 lg:mr-0 flex flex-col  mt-96 items-center -mb-96"
+          className="lg:flex lg:flex-col lg:text-center pro  lg:items-center   lg:ml-0 lg:mr-0 flex flex-col  mt-80 items-center -mb-96"
           data-aos="fade-up"
           id="projects"
         >
@@ -413,7 +413,7 @@ export default function Homepage() {
             Other Noteworthy Projects
           </h1>
 
-          <div className="lg:flex lg:flex-row  lg:gap-10 flex flex-col gap-5 ">
+          <div className="lg:flex lg:flex-row  lg:gap-10 flex flex-col gap-10 ">
             <Project
               lang={[
                 "Typescript",
