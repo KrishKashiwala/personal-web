@@ -17,7 +17,7 @@ const RevCard: React.FC = () => {
       className="  "
     >
       <div
-        className="rev-main lg:items-center lg:justify-start  flex items-center justify-start flex-col text-start lg:p-4 lg:items-center justify-start backdrop-filter  bg-opacity-10 bg-gray-900 rounded-3xl shadow-2xl  "
+        className="rev-main lg:items-center lg:justify-start  flex items-center justify-start flex-col text-start lg:p-4 lg:items-center justify-start lg:backdrop-filter  lg:bg-opacity-10 lg:bg-gray-900 rounded-3xl shadow-2xl  "
         data-aos="fade-down"
       >
         <div className="lg:flex rev-sub-div lg:flex-col lg:justify-center  lg:items-start  lg:p-5 lg:mt-16 lg:gap-4 lg:z-20 flex flex-col  justify-center items-start gap-4 p-5">

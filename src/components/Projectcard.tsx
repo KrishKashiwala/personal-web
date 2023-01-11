@@ -18,7 +18,7 @@ const Projectcard = ({
 
   return (
     <div
-      className="proj-main lg:items-center  lg:justify-end  text-sm flex items-center justify-start backdrop-filter  bg-opacity-10 bg-gray-900 rounded-3xl shadow-2xl  lg:mx-10 lg:my-10 lg:px-10 lg:py-10 mx-5 my-5 px-5 py-5  lg:gap-10 gap-5 lg:flex-row flex-col lg:z-10 z-0 "
+      className="proj-main lg:items-center  lg:justify-end  text-sm flex items-center justify-start lg:backdrop-filter  lg:bg-opacity-10 lg:bg-gray-900 rounded-3xl shadow-2xl  lg:mx-10 lg:my-10 lg:px-10 lg:py-10 mx-5 my-5 px-5 py-5  lg:gap-10 gap-5 lg:flex-row flex-col lg:z-10  "
       data-aos="fade-up"
     >
       <div className="lg:flex proj-sub-div lg:flex-col lg:justify-center lg:items-end  lg:p-5 lg:gap-4 lg:z-20 flex flex-col  justify-center items-start p-5 gap-4">
