@@ -45,7 +45,7 @@ const Navbar: React.FC<{
           </a>
         </section>
         <a
-          href="https://drive.google.com/file/d/1_-2cfISw3mTmcaLCkpMsVo9LxAyvCXsn/view"
+          href="https://drive.google.com/file/d/17qgy3bB-oAEbXjh4pryETgHmjJO3DK7M/view"
           rel="noreferrer noopener"
           target="_blank"
           className="hidden nav-button  lg:block lg:rounded-lg lg:overflow-hidden  lg:border-2 lg:border-opacity-3  lg:border-gray-50 lg:px-4 lg:py-1 "
