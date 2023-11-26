@@ -3,12 +3,7 @@ import "../css/experience.css";
 import { Timeline, TimelineEvent } from "react-event-timeline";
 const Experience = ({ name, location, duration, points }: any) => {
   return (
-    <div
-      style={{
-        marginLeft: "20em",
-        marginRight: "20em",
-      }}
-    >
+    <div className="latest">
       <Timeline
         style={{
           background: "#0a192f",
