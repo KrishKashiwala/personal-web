@@ -339,8 +339,8 @@ export default function Homepage() {
                 <Tilt scale={1}>
                   <div className="lg:border-2 lg:rounded-lg lg:border-yellow-400  lg:h-64 lg:w-80 lg:mb-96  lg:py-44 border-2 lg:-ml-10 rounded-lg border-yellow-400 w-36  h-52  ml-32 mt-14 "></div>
                   <img
-                    className="lg:w-96 lg:h-80 lg:rounded-lg lg:absolute lg:bottom-12 lg:right-16 w-40 ml-14  h-52 absolute  bottom-6 rounded-lg"
-                    src="https://i.ibb.co/88VgcFR/Whats-App-Image-2022-12-06-at-5-21-39-PM.jpg"
+                    className="lg:w-96 lg:h-96 lg:rounded-lg lg:absolute lg:bottom-12 lg:right-16 w-40 ml-14 object-fill  h-52 absolute  bottom-6 rounded-lg"
+                    src="https://i.ibb.co/T0JJ6kF/psp.jpg"
                     alt="pics"
                   />
                 </Tilt>
