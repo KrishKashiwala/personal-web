@@ -363,19 +363,36 @@ export default function Homepage() {
           </div>
           <div className=" mt-10 animate__animated animate__fadeInDown">
             <Experience
-              name="SafeTrade.AI"
-              location="Benguluru , India"
-              duration="May 2022 - July 2022"
+              name="Heliverse"
+              location="Backend Developer - Gurgaon , India (Remote)"
+              duration="April 2023 - October 2023"
+              points={[
+                "Developed backend solutions using NestJS framework to deliver robust and scalable RESTful APIs for clients.",
+                " Collaborated with a team of 5 devs, delivered 3 major features, increased client satisfaction by 20%.",
+                "Integrated NestJS backend with AWS services like EC2 for hosting management and S3 for file storage",
+                "ensuring seamless data flow and availability.",
+              ]}
             />
             <Experience
-              name="Tech Exordium"
+              name="SafeTrade.AI"
+              location="Full Stack Developer -Benguluru , India (Remote)"
+              duration="May 2022 - July 2022"
+              points={[
+                "Implemented a user-friendly Chrome extension and web portal that effectively reduces impulsive trading",
+                "behaviors by incorporating psychological factors and technical indicators.",
+                "Integrated multiple trading brokers like AngelOne and Zerodha, ensuring compatibility and seamless execution of trades across various platforms.",
+                " Mastered Golang and used various third-party libraries.",
+              ]}
+            />
+            <Experience
+              name="Frontend Developer - Tech Exordium"
               location="New Delhi , India"
               duration="June 2021 - August 2021"
               points={pointsMap}
             />
           </div>
         </section>
-        <section id="projects" className=" lg:mt-96 lg:-ml-10  mb-28 mt-24">
+        <section id="projects" className=" lg:mt-64  lg:-ml-10  mb-28 mt-24">
           <div className="lg:flex lg:flex-row lg:items-center lg:ml-64 flex flex-row items-center ml-5">
             <h2
               data-sr-id="3"
